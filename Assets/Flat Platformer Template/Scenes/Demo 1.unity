@@ -6010,34 +6010,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 50860677075071130, guid: ed18ae643e6150e48a215de290a44235,
         type: 3}
-      propertyPath: m_Mass
-      value: 1.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 50860677075071130, guid: ed18ae643e6150e48a215de290a44235,
-        type: 3}
       propertyPath: m_Constraints
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 50860677075071130, guid: ed18ae643e6150e48a215de290a44235,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114210957743276982, guid: ed18ae643e6150e48a215de290a44235,
         type: 3}
       propertyPath: cam
       value: 
       objectReference: {fileID: 742416277}
-    - target: {fileID: 114210957743276982, guid: ed18ae643e6150e48a215de290a44235,
-        type: 3}
-      propertyPath: mirror
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114210957743276982, guid: ed18ae643e6150e48a215de290a44235,
-        type: 3}
-      propertyPath: JumpForce
-      value: 1500
-      objectReference: {fileID: 0}
     - target: {fileID: 114518099193907548, guid: ed18ae643e6150e48a215de290a44235,
         type: 3}
       propertyPath: _offset
@@ -6371,6 +6351,11 @@ PrefabInstance:
     - target: {fileID: 4899350236646464, guid: 781ff537a86bbe941b79285dfac91178, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212417322419559560, guid: 781ff537a86bbe941b79285dfac91178,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 781ff537a86bbe941b79285dfac91178, type: 3}
