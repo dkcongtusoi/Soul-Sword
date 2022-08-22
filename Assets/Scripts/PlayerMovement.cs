@@ -299,9 +299,13 @@ public class PlayerMovement : MonoBehaviour
 		if (IsSliding)
 			Slide();
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+		Debug.Log("Trigger!");
+    }
 
     #region INPUT CALLBACKS
-	//Methods which whandle input detected in Update()
+    //Methods which whandle input detected in Update()
     public void OnJumpInput()
 	{
 		LastPressedJumpTime = Data.jumpInputBufferTime;
