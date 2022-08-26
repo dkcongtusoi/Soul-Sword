@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_soulplaceholder",
-    "path": "sprites/spr_soulplaceholder/spr_soulplaceholder.yy",
+    "name": "lvl3_sketch_part1",
+    "path": "sprites/lvl3_sketch_part1/lvl3_sketch_part1.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,18 +21,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":12,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Lv3",
+    "path": "folders/Objects/Level Sketches/Lv3.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_soul",
+  "name": "obj_lvl3_sketch_part1",
   "tags": [],
   "resourceType": "GMObject",
 }
