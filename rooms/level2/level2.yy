@@ -382,8 +382,8 @@
         {"spriteId":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.49999997,"scaleY":-0.5,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8000.0,"y":640.0,"resourceVersion":"1.0","name":"graphic_16E1F084","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":false,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Collisions","tags":[],"resourceType":"GMRAssetLayer",},
     {"assets":[
-        {"spriteId":{"name":"lvl2sketch_1","path":"sprites/lvl2sketch_1/lvl2sketch_1.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":320.0,"resourceVersion":"1.0","name":"graphic_763DF830","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"lvl2sketch_2","path":"sprites/lvl2sketch_2/lvl2sketch_2.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8704.0,"y":96.0,"resourceVersion":"1.0","name":"graphic_1AB805D5","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"lvl2sketch_1","path":"sprites/lvl2sketch_1/lvl2sketch_1.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":384.0,"resourceVersion":"1.0","name":"graphic_763DF830","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"lvl2sketch_2","path":"sprites/lvl2sketch_2/lvl2sketch_2.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8704.0,"y":0.0,"resourceVersion":"1.0","name":"graphic_1AB805D5","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Level2_Sketch","tags":[],"resourceType":"GMRAssetLayer",},
     {"spriteId":null,"colour":4278190325,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -398,7 +398,7 @@
   "roomSettings": {
     "inheritRoomSettings": false,
     "Width": 16823,
-    "Height": 2487,
+    "Height": 2551,
     "persistent": false,
   },
   "viewSettings": {
