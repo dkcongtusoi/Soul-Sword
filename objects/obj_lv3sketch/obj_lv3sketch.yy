@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "_1st_part",
-    "path": "sprites/_1st_part/_1st_part.yy",
+    "name": "lvl3_collisions",
+    "path": "sprites/lvl3_collisions/lvl3_collisions.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,7 @@
     "path": "folders/Objects/Level Sketches.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sketchpart1",
+  "name": "obj_lv3sketch",
   "tags": [],
   "resourceType": "GMObject",
 }

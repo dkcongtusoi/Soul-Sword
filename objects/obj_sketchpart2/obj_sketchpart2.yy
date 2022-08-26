@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Level Sketches",
+    "path": "folders/Objects/Level Sketches.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_sketchpart2",
