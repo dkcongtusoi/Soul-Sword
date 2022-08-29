@@ -2,7 +2,7 @@ key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 interact = keyboard_check_pressed(ord("Z"));
 dash = keyboard_check_pressed(ord("X"));
-jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
+if !obj_popup.showing jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
 
 
 
@@ -33,7 +33,8 @@ if place_meeting(x + hsp, y, obj_collision){
 	}
 	hsp = 0;
 }
-x = x + hsp;
+
+if !obj_popup.showing x = x + hsp;
 
 //Vertical Collision
 if place_meeting(x, y + vsp, obj_collision){
@@ -92,9 +93,34 @@ if _star != noone{
 	if interact{
 		obj_popup.triggered = true;
 	}
+	
+
+}
+
+if obj_popup.showing{
+	if interact{
+		obj_popup.triggered = false;
+		obj_popup.showing = false;
+	}
 }
 
 
+
+#endregion
+
+#region QOL
+
+if keyboard_check_pressed(ord("R")){
+	room_restart();
+}
+
+if keyboard_check_pressed(ord("F")){	
+	if window_get_fullscreen(){
+		window_set_fullscreen(false);
+	}else{
+		window_set_fullscreen(true);
+	}
+}
 
 
 #endregion
