@@ -90,6 +90,7 @@ var _star = instance_place(x, y, obj_star)
 
 if _star != noone{
 	_star.image_index = 1;
+	global.popup = _star.chosenSprite;
 	if interact{
 		obj_popup.triggered = true;
 	}
