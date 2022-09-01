@@ -66,12 +66,13 @@ else{
 		sprite_index = spr_player_idle;
 
 	}else{
-		sprite_index = spr_player_run;
-
+		if !obj_popup.showing{
+			sprite_index = spr_player_run;
+		}
 	}
 }
 
-if hsp != 0{
+if hsp != 0 and !obj_popup.showing{
 	image_xscale = sign(hsp);
 }
 
@@ -86,11 +87,11 @@ if _soul != noone{
 	instance_destroy(_soul);
 }
 
-var _star = instance_place(x, y, obj_star)
+var _lotus = instance_place(x, y, obj_lotus)
 
-if _star != noone{
-	_star.image_index = 1;
-	global.popup = _star.chosenSprite;
+if _lotus != noone{
+	_lotus.image_index = 1;
+	global.popup = _lotus.chosenSprite;
 	if interact{
 		obj_popup.triggered = true;
 	}
