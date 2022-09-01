@@ -4,7 +4,7 @@
     "path": "sprites/spr_test1/spr_test1.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
