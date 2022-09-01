@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_one",
-    "path": "sprites/spr_one/spr_one.yy",
+    "name": "spr_QY",
+    "path": "sprites/spr_QY/spr_QY.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,17 +22,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Lv5",
-    "path": "folders/Objects/Lv5.yy",
+    "name": "Lv0",
+    "path": "folders/Objects/Lv0.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_finalcutscene",
+  "name": "obj_QY",
   "tags": [],
   "resourceType": "GMObject",
 }
