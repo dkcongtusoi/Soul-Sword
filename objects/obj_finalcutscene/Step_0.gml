@@ -15,7 +15,11 @@ if image_index == 2{
 #region QOL
 
 if keyboard_check_pressed(ord("R")){
-	room_restart();
+	if keyboard_check(vk_shift){
+		game_restart();
+	}else{
+		room_restart();
+	}
 }
 
 if keyboard_check_pressed(ord("F")){	
