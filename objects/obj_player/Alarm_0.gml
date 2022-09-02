@@ -1,0 +1,1 @@
+obj_popup.can_display_text = true;

@@ -94,6 +94,7 @@ if _lotus != noone{
 	global.popup = _lotus.chosenSprite;
 	if interact{
 		obj_popup.triggered = true;
+		alarm[0] = room_speed;
 	}
 	
 
@@ -103,6 +104,7 @@ if obj_popup.showing{
 	if interact{
 		obj_popup.triggered = false;
 		obj_popup.showing = false;
+		obj_popup.can_display_text = false;
 	}
 }
 
