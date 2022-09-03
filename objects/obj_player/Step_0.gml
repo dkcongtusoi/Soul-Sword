@@ -85,6 +85,7 @@ var _soul = instance_place(x, y, obj_soul)
 if _soul != noone{
 	_soul.image_index = 1;
 	instance_destroy(_soul);
+	audio_play_sound(snd_soulcollect, 8, false);
 }
 
 var _lotus = instance_place(x, y, obj_lotus)
