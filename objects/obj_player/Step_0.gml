@@ -23,6 +23,10 @@ if place_meeting(x, y + 1, obj_collision){
 if jump and jumps > 0{
 	jumps -= 1;
 	vsp = -jumpSp;
+	if !audio_is_playing(snd_jump){
+		audio_play_sound(snd_jump, 1, 0);
+	}
+	audio_stop_sound(snd_running);
 }
 
 
@@ -64,10 +68,14 @@ else{
 	image_speed = 1;
 	if hsp == 0{
 		sprite_index = spr_player_idle;
+		audio_stop_sound(snd_running);
 
 	}else{
 		if !obj_popup.showing{
 			sprite_index = spr_player_run;
+			if !audio_is_playing(snd_running){
+				audio_play_sound(snd_running, 1, 1);
+			}
 		}
 	}
 }
