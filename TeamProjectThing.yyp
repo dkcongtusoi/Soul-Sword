@@ -57,7 +57,6 @@
     {"id":{"name":"spr_lotus","path":"sprites/spr_lotus/spr_lotus.yy",},"order":0,},
     {"id":{"name":"spr_hut","path":"sprites/spr_hut/spr_hut.yy",},"order":3,},
     {"id":{"name":"spr_lvl2_bg_tile","path":"sprites/spr_lvl2_bg_tile/spr_lvl2_bg_tile.yy",},"order":4,},
-    {"id":{"name":"obj_cs_dl","path":"objects/obj_cs_dl/obj_cs_dl.yy",},"order":1,},
     {"id":{"name":"obj_invitation_dl","path":"objects/obj_invitation_dl/obj_invitation_dl.yy",},"order":3,},
     {"id":{"name":"obj_roof_dl","path":"objects/obj_roof_dl/obj_roof_dl.yy",},"order":0,},
     {"id":{"name":"SND_BGM_LVL1_ANGER","path":"sounds/SND_BGM_LVL1_ANGER/SND_BGM_LVL1_ANGER.yy",},"order":1,},

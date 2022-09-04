@@ -17,7 +17,7 @@ if can_display_text{
 			is_waiting_for_keypress = true;
 		}
 	}else{
-		if keyboard_check_pressed(ord("X")){
+		if keyboard_check_released(ord("X")){
 			is_waiting_for_keypress = false;
 			character_index = 0;
 			dialog_next();
