@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_QY",
-    "path": "sprites/spr_QY/spr_QY.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -32,7 +29,7 @@
     "path": "folders/Objects/Lv0.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_QY",
+  "name": "obj_cs_dl",
   "tags": [],
   "resourceType": "GMObject",
 }

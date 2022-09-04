@@ -4,7 +4,7 @@ if keyboard_check_pressed(vk_space){
 	}
 }
 if image_index == 1{
-	if alarm[0] < 0 {
+	if alarm[0] < 0 and !is_showing {
 		alarm[0] = room_speed*2;
 	}
 }
