@@ -5,6 +5,6 @@ character_index = 0;
 is_waiting_for_keypress = false;
 
 dialog_init();
-dialog_add(spr_QY_box, "I, Qiu Ye, swear to you my unyielding devotion beyond life and death.");
+dialog_add(spr_QY_box, "Shizun, I wonder what you would think of me if you saw me now.");
 
 dialog_reset();

@@ -1,2 +1,2 @@
 audio_stop_all()
-audio_play_sound(SND_BGM_LVL4_CAVE,10,true)
+audio_play_sound(SND_CS2_BGM_ACCEPTANCE,10,true)
