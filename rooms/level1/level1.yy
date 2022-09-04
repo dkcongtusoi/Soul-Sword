@@ -337,7 +337,6 @@
             {"propertyId":{"name":"choosenItem","path":"objects/obj_lotus/obj_lotus.yy",},"objectId":{"name":"obj_lotus","path":"objects/obj_lotus/obj_lotus.yy",},"value":"obj_spiderlily_dl","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_lotus","path":"objects/obj_lotus/obj_lotus.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":17664.0,"y":2336.0,"resourceVersion":"1.0","name":"inst_6FF89C2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_popup","path":"objects/obj_popup/obj_popup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-704.0,"y":0.0,"resourceVersion":"1.0","name":"inst_5118C34C","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_lotus","path":"objects/obj_lotus/obj_lotus.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5920.0,"y":2464.0,"resourceVersion":"1.0","name":"inst_283925B5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_test1","path":"objects/obj_test1/obj_test1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5600.0,"y":1248.0,"resourceVersion":"1.0","name":"inst_B81C35F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"chosenSprite","path":"objects/obj_lotus/obj_lotus.yy",},"objectId":{"name":"obj_lotus","path":"objects/obj_lotus/obj_lotus.yy",},"value":"spr_roof","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -674,7 +673,6 @@
     {"name":"inst_50BC08DA","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_6FF89C2","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_5118C34C","path":"rooms/Level1/Level1.yy",},
-    {"name":"inst_283925B5","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_B81C35F","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_615B38B","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_51399039","path":"rooms/Level1/Level1.yy",},
