@@ -23,6 +23,7 @@ if can_display_text{
 			dialog_next();
 			
 			if dialog_end(){
+				obj_finalcutscene.ending = true;
 				instance_destroy();
 			}
 		}

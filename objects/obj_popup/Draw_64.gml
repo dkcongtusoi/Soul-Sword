@@ -4,5 +4,5 @@ if triggered and global.popup != noone{
 }else{
 	
 }
-
+draw_set_font(fnt_one);
 

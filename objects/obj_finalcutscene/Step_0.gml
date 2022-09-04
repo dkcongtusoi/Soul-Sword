@@ -27,6 +27,15 @@ if image_index == 2 and !created{
 }
 
 
+if ending{	
+	var layer_fx = layer_get_fx("Effect_4");
+	fx_set_parameter(layer_fx, "g_Intensity", value);
+	value = lerp(value, 1, 0.015);
+	if value >= 0.98{
+		image_alpha = lerp(image_alpha, 0, 0.02);
+	}
+}
+
 #region QOL
 
 if keyboard_check_pressed(ord("R")){

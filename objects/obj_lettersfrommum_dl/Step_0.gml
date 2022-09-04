@@ -5,7 +5,7 @@ if can_display_text{
 			character_index += choose(0.75, 1, 1.25, 1.5);
 		}
 		
-		if keyboard_check_pressed(ord("X")){
+		if keyboard_check_released(ord("X")){
 			character_index = string_length(dialog_get_text());
 		}
 		

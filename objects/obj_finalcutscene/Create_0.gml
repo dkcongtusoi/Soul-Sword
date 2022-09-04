@@ -6,3 +6,5 @@ alarm[0] = room_speed*1;
 created = false;
 
 ending = false;
+
+value = 0;
