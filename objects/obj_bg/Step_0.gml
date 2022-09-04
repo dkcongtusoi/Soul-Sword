@@ -9,6 +9,11 @@ if image_index == 1{
 	}
 }
 
+if is_finished{
+	if alarm[1] < 0{
+		alarm[1] = room_speed*1;
+	}
+}
 #region QOL
 
 if keyboard_check_pressed(ord("R")){

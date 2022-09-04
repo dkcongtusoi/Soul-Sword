@@ -1,5 +1,7 @@
 display_set_gui_size(room_width/2, room_height/2);
 
+
+
 position_bar_y = display_get_gui_height();
 position_bar_y_end = position_bar_y - 150;
 
