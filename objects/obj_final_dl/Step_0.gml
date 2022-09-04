@@ -23,7 +23,6 @@ if can_display_text{
 			dialog_next();
 			
 			if dialog_end(){
-				obj_BG.is_finished = true;
 				instance_destroy();
 			}
 		}

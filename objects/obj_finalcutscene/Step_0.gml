@@ -1,16 +1,31 @@
-if keyboard_check_pressed(vk_space){
-	if image_index < 2{
-		image_index ++;
+if instance_exists(obj_final_dl){
+	if global.dialog_index == 4{
+		image_index = 1;
 	}
-}
-if image_index == 2{
+	if global.dialog_index == 16{
+		image_index = 2;
+	}
+}	
+
+//if keyboard_check_pressed(vk_space){
+//	if image_index < 2{
+//		image_index ++;
+//	}
+//}
+
+if image_index == 2 and !created{
 	if keyboard_check_pressed(vk_right){
+		instance_create_depth(x, y, depth, obj_ending_1);
+		created = true;
 		sprite_index = spr_freedom;
 	}
 	if keyboard_check_pressed(vk_left){
+		instance_create_depth(x, y, depth, obj_ending_2);
+		created = true;
 		sprite_index = spr_retribution;
 	}
 }
+
 
 #region QOL
 
