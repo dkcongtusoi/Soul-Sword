@@ -101,6 +101,7 @@ var _lotus = instance_place(x, y, obj_lotus)
 if _lotus != noone{
 	_lotus.image_index = 1;
 	global.popup = _lotus.chosenSprite;
+	global.item = _lotus.choosenItem;
 	if interact{
 		obj_popup.triggered = true;
 		alarm[0] = room_speed;
@@ -110,10 +111,9 @@ if _lotus != noone{
 }
 
 if obj_popup.showing{
-	if interact{
+	if interact and !instance_exists(global.item){
 		obj_popup.triggered = false;
 		obj_popup.showing = false;
-		obj_popup.can_display_text = false;
 	}
 }
 
