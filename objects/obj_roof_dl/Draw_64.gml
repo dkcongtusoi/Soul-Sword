@@ -9,7 +9,7 @@ if can_display_text{
 	
 	draw_text_color(display_get_gui_width()/2, display_get_gui_height() - 145, text, c_black, c_black, c_black, c_black, 1);
 	
-	if is_waiting_for_keypress{
+	if character_index < str_len {
 		draw_set_align(fa_left, fa_middle);
 		text = "*Press X";
 		var text_length = string_width(text);
