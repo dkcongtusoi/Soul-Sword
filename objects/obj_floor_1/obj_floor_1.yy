@@ -1,11 +1,17 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_floor_1",
+    "path": "sprites/spr_floor_1/spr_floor_1.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_collision",
+    "path": "objects/obj_collision/obj_collision.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -26,7 +32,7 @@
     "path": "folders/Objects/Collision.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_slope",
+  "name": "obj_floor_1",
   "tags": [],
   "resourceType": "GMObject",
 }

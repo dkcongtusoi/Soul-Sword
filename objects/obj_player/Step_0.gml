@@ -32,11 +32,12 @@ if jump and jumps > 0{
 
 //Horizontal Collision
 if place_meeting(x + hsp, y, obj_collision){
+	//Upward slopes
 	yplus = 0;
-	while (place_meeting(x+hsp,y-yplus,obj_collision) && yplus <= abs(1*hsp)){
+	while (place_meeting(x + hsp, y - yplus, obj_collision) && yplus <= abs(1*hsp)){
 		yplus += 1;
 	}
-	if place_meeting(x+hsp,y-yplus,obj_collision){
+	if place_meeting(x + hsp,y - yplus,obj_collision){
 		while !place_meeting(x + sign(hsp), y, obj_collision){
 			x = x + sign(hsp);	
 		}
@@ -50,8 +51,11 @@ if place_meeting(x + hsp, y, obj_collision){
 if !obj_popup.showing x += hsp;
 
 // Downward slopes
-if !place_meeting(x,y,obj_collision) && vsp >= 0 && place_meeting(x,y+2+abs(hsp),obj_collision)
-{while(!place_meeting(x,y+1,obj_collision)) {y += 1;}}
+if !place_meeting(x, y, obj_collision) && vsp >= 0 && place_meeting(x, y + 2 + abs(hsp), obj_collision){
+	while(!place_meeting(x, y + 1, obj_collision)){
+		y += 1;
+		}
+	}
 
 //Vertical Collision
 if place_meeting(x, y + vsp, obj_collision){
