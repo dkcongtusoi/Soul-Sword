@@ -7,6 +7,9 @@ image_speed = 1;
 hsp = 0
 vsp = 0
 
+isSlow = false;
+muted = false;
+
 isDashing = false;
 dashDuration = 0;
 isJump = false;

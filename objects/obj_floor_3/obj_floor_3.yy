@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Collision",
-    "path": "folders/Objects/Collision.yy",
+    "name": "Lv4",
+    "path": "folders/Objects/Lv4.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_floor_3",

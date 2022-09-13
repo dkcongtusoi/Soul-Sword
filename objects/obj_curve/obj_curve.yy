@@ -1,14 +1,17 @@
 {
   "spriteId": {
-    "name": "spr_floor_1",
-    "path": "sprites/spr_floor_1/spr_floor_1.yy",
+    "name": "spr_curve",
+    "path": "sprites/spr_curve/spr_curve.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_collision",
+    "path": "objects/obj_collision/obj_collision.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,11 +28,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Collision",
+    "path": "folders/Objects/Collision.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lvl4collision",
+  "name": "obj_curve",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -8,8 +8,13 @@ if !obj_popup.showing jump = keyboard_check_pressed(vk_space) || keyboard_check_
 
 #region Movement
 var dir = key_right - key_left
-hsp = dir * walkSp;
+if !isSlow{
+	hsp = dir * walkSp;
+}else{
+	hsp = dir * slowSp;
+}
 vsp = vsp + grv;
+
 //Dash
 
 
@@ -22,7 +27,11 @@ if place_meeting(x, y + 1, obj_collision){
 
 if jump and jumps > 0{
 	jumps -= 1;
-	vsp = -jumpSp;
+	if !isSlow{
+		vsp = -jumpSp;
+	}else{
+		vsp = -jumpSp/2;
+	}
 	if !audio_is_playing(snd_jump){
 		audio_play_sound(snd_jump, 1, 0);
 	}
@@ -34,7 +43,7 @@ if jump and jumps > 0{
 if place_meeting(x + hsp, y, obj_collision){
 	//Upward slopes
 	yplus = 0;
-	while (place_meeting(x + hsp, y - yplus, obj_collision) && yplus <= abs(1*hsp)){
+	while (place_meeting(x + hsp, y - yplus, obj_collision) && yplus <= abs(slopeMutiplier*hsp)){
 		yplus += 1;
 	}
 	if place_meeting(x + hsp,y - yplus,obj_collision){
@@ -82,7 +91,11 @@ if !place_meeting(x, y + 1, obj_collision){
 	sprite_index = spr_player_jump;
 }
 else{
-	image_speed = 1;
+	if isSlow{
+		image_speed = slowSp/walkSp;
+	}else{
+		image_speed = 1;
+	}
 	if hsp == 0{
 		sprite_index = spr_player_idle;
 		audio_stop_sound(snd_running);
@@ -156,5 +169,18 @@ if keyboard_check_pressed(ord("F")){
 	}
 }
 
+if keyboard_check_pressed(ord("L")){
+	isSlow = !isSlow;
+}
+
+if keyboard_check_pressed(ord("M")){
+	muted = !muted;
+}
+
+if muted {
+	audio_master_gain(0);
+}else{
+	audio_master_gain(1);
+}
 
 #endregion
