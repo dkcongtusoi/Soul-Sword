@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "LVL 4",
-    "path": "folders/Sprites/LVL 4.yy",
+    "name": "Tiles",
+    "path": "folders/Sprites/LVL 4/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_floor_2",
