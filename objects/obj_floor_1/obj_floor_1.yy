@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Lv4",
-    "path": "folders/Objects/Lv4.yy",
+    "name": "Lv2(Cave)",
+    "path": "folders/Objects/Lv2(Cave).yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_floor_1",

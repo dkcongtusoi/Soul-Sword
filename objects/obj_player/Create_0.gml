@@ -10,12 +10,8 @@ vsp = 0
 isSlow = false;
 muted = false;
 
-isDashing = false;
-dashDuration = 0;
 isJump = false;
 
 jumpsmax = 2;
 
 jumps = 0;
-
-_soul = noone;

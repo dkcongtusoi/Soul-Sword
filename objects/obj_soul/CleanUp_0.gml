@@ -1,1 +1,0 @@
-obj_counter.current_soul++;

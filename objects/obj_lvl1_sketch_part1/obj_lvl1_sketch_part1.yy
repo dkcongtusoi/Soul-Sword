@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "lvl1_sketch_part1",
-    "path": "sprites/lvl1_sketch_part1/lvl1_sketch_part1.yy",
+    "name": "spr_lv1_01",
+    "path": "sprites/spr_lv1_01/spr_lv1_01.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Lv1",
-    "path": "folders/Objects/Level Sketches/Lv1.yy",
+    "name": "Lv1(Main)",
+    "path": "folders/Objects/Lv1(Main).yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lvl1_sketch_part1",

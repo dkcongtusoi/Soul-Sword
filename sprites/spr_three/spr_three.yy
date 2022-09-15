@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Lv5",
-    "path": "folders/Sprites/Sketches/Lv5.yy",
+    "name": "Lv3",
+    "path": "folders/Sprites/Sketches/Lv3.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_three",

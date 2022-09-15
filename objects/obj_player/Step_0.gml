@@ -1,7 +1,6 @@
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 interact = keyboard_check_pressed(ord("Z"));
-dash = keyboard_check_pressed(ord("X"));
 if !obj_popup.showing jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
 
 
@@ -117,14 +116,6 @@ if hsp != 0 and !obj_popup.showing{
 #endregion
 
 #region Collectibles
-
-var _soul = instance_place(x, y, obj_soul)
-
-if _soul != noone{
-	_soul.image_index = 1;
-	instance_destroy(_soul);
-	audio_play_sound(snd_soulcollect, 8, false);
-}
 
 var _lotus = instance_place(x, y, obj_lotus)
 

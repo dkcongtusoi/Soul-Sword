@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lv1_02",
-    "path": "sprites/spr_lv1_02/spr_lv1_02.yy",
+    "name": "spr_lv1_03",
+    "path": "sprites/spr_lv1_03/spr_lv1_03.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,7 @@
     "path": "folders/Objects/Lv1(Main).yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lvl1_sketch_part2",
+  "name": "obj_lvl1_sketch_part3",
   "tags": [],
   "resourceType": "GMObject",
 }
