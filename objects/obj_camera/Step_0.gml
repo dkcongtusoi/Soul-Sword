@@ -1,11 +1,14 @@
 if instance_exists(obj_player){
+	camW = camera_get_view_width(view_camera[0]);
+	camH = camera_get_view_height(view_camera[0]);
+
 	view_x = obj_player.x - (camW / 2) + offset_x;
 	view_y = obj_player.y - (camH/2) - offset_y ;
 	var min_view_x = 0;
 	var min_view_y = 0;
 
-	var max_view_x = room_width - camera_get_view_width(view_camera[0]);
-	var max_view_y = room_height - camera_get_view_height(view_camera[0]);
+	var max_view_x = room_width - camW;
+	var max_view_y = room_height - camH;
 
 	view_x = lerp(view_x, obj_player.x, 0.02);
 	view_y = lerp(view_y, obj_player.y, 0.02);

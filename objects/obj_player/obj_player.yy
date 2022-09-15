@@ -30,12 +30,12 @@
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":1,"value":"12","rangeEnabled":false,"rangeMin":0.0,"rangeMax":20.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"walkSp","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"25","rangeEnabled":false,"rangeMin":0.0,"rangeMax":30.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"jumpSp","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1.4","rangeEnabled":false,"rangeMin":0.0,"rangeMax":2.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"grv","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"6","rangeEnabled":true,"rangeMin":0.0,"rangeMax":20.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"walkSp","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"20","rangeEnabled":false,"rangeMin":0.0,"rangeMax":30.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"jumpSp","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"1.3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":2.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"grv","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"24","rangeEnabled":true,"rangeMin":0.0,"rangeMax":100.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"dashSp","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1","rangeEnabled":true,"rangeMin":0.0,"rangeMax":5.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"slopeMutiplier","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"4","rangeEnabled":true,"rangeMin":0.0,"rangeMax":20.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"slowSp","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"2.5","rangeEnabled":true,"rangeMin":0.0,"rangeMax":20.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"slowSp","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
