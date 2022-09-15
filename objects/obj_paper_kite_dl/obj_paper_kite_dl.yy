@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Lv2",
-    "path": "folders/Objects/Lv2.yy",
+    "name": "Items",
+    "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_paper_kite_dl",

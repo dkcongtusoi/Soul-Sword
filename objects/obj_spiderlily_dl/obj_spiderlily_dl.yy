@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Lv1",
-    "path": "folders/Objects/Lv1.yy",
+    "name": "Items",
+    "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_spiderlily_dl",

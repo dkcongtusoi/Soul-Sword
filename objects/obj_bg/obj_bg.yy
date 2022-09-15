@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Lv0",
-    "path": "folders/Objects/Lv0.yy",
+    "name": "Lv0(Cutscene)",
+    "path": "folders/Objects/Lv0(Cutscene).yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_BG",

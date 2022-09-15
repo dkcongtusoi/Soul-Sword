@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Lv5",
-    "path": "folders/Objects/Lv5.yy",
+    "name": "Lv3(Cutscene)",
+    "path": "folders/Objects/Lv3(Cutscene).yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_final_dl",

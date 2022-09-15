@@ -25,9 +25,9 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"d5e95299-5ac2-4644-8d4d-a667e2d4dccf","path":"sprites/spr_floor_1_cl/spr_floor_1_cl.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d5e95299-5ac2-4644-8d4d-a667e2d4dccf","path":"sprites/spr_floor_1_cl/spr_floor_1_cl.yy",},"LayerId":{"name":"1160a78f-f7f2-4759-b1c7-982abc79e77b","path":"sprites/spr_floor_1_cl/spr_floor_1_cl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"d5e95299-5ac2-4644-8d4d-a667e2d4dccf","path":"sprites/spr_floor_1_cl/spr_floor_1_cl.yy",},"LayerId":{"name":"b4cd29d8-8c71-4234-b7cf-3b71d768d35f","path":"sprites/spr_floor_1_cl/spr_floor_1_cl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"d5e95299-5ac2-4644-8d4d-a667e2d4dccf","path":"sprites/spr_floor_1_cl/spr_floor_1_cl.yy",},"LayerId":{"name":"4b5c4039-0fd1-4362-b7f4-ca469a30a084","path":"sprites/spr_floor_1_cl/spr_floor_1_cl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"d5e95299-5ac2-4644-8d4d-a667e2d4dccf","path":"sprites/spr_floor_1_cl/spr_floor_1_cl.yy",},"LayerId":{"name":"b4cd29d8-8c71-4234-b7cf-3b71d768d35f","path":"sprites/spr_floor_1_cl/spr_floor_1_cl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"d5e95299-5ac2-4644-8d4d-a667e2d4dccf","path":"sprites/spr_floor_1_cl/spr_floor_1_cl.yy",},"LayerId":{"name":"1160a78f-f7f2-4759-b1c7-982abc79e77b","path":"sprites/spr_floor_1_cl/spr_floor_1_cl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_floor_1_cl","path":"sprites/spr_floor_1_cl/spr_floor_1_cl.yy",},"resourceVersion":"1.0","name":"d5e95299-5ac2-4644-8d4d-a667e2d4dccf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Tiles",
-    "path": "folders/Sprites/LVL 4/Tiles.yy",
+    "path": "folders/Sprites/Lv2(Cave)/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_floor_1_cl",

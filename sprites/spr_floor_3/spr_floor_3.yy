@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Tiles",
-    "path": "folders/Sprites/LVL 4/Tiles.yy",
+    "path": "folders/Sprites/Lv2(Cave)/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_floor_3",

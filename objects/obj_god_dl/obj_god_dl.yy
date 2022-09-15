@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Lv3",
-    "path": "folders/Objects/Lv3.yy",
+    "name": "Items",
+    "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_god_dl",

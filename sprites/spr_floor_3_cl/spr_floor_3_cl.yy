@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"b1746fe6-39f9-4498-aa07-ceef50ecadd6","path":"sprites/spr_floor_3_cl/spr_floor_3_cl.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b1746fe6-39f9-4498-aa07-ceef50ecadd6","path":"sprites/spr_floor_3_cl/spr_floor_3_cl.yy",},"LayerId":{"name":"1233b583-24ff-4864-9f71-0d6a1d077829","path":"sprites/spr_floor_3_cl/spr_floor_3_cl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"b1746fe6-39f9-4498-aa07-ceef50ecadd6","path":"sprites/spr_floor_3_cl/spr_floor_3_cl.yy",},"LayerId":{"name":"fd3c69f3-69fd-48f5-a6c4-cbf599f0e0c3","path":"sprites/spr_floor_3_cl/spr_floor_3_cl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"b1746fe6-39f9-4498-aa07-ceef50ecadd6","path":"sprites/spr_floor_3_cl/spr_floor_3_cl.yy",},"LayerId":{"name":"1233b583-24ff-4864-9f71-0d6a1d077829","path":"sprites/spr_floor_3_cl/spr_floor_3_cl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_floor_3_cl","path":"sprites/spr_floor_3_cl/spr_floor_3_cl.yy",},"resourceVersion":"1.0","name":"b1746fe6-39f9-4498-aa07-ceef50ecadd6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -72,7 +72,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Tiles",
-    "path": "folders/Sprites/LVL 4/Tiles.yy",
+    "path": "folders/Sprites/Lv2(Cave)/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_floor_3_cl",
