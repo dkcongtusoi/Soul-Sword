@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_lotus1",
-    "path": "sprites/spr_lotus1/spr_lotus1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
