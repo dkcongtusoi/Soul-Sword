@@ -110,7 +110,7 @@ y = y + vsp;
 //}
 
 if hsp != 0 and !obj_popup.showing{
-	//image_xscale = 0.1*sign(hsp);
+	image_xscale = 0.15*sign(hsp);
 }
 
 #endregion
