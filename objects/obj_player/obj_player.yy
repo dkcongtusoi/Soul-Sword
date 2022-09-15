@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player_idle",
-    "path": "sprites/spr_player_idle/spr_player_idle.yy",
+    "name": "spr_QY_Idle",
+    "path": "sprites/spr_QY_Idle/spr_QY_Idle.yy",
   },
   "solid": false,
   "visible": true,

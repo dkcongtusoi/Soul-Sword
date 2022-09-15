@@ -13,6 +13,7 @@
     {"id":{"name":"SND_BGM_LVL3_DEPRESSION","path":"sounds/SND_BGM_LVL3_DEPRESSION/SND_BGM_LVL3_DEPRESSION.yy",},"order":3,},
     {"id":{"name":"spr_floor_2_cl","path":"sprites/spr_floor_2_cl/spr_floor_2_cl.yy",},"order":9,},
     {"id":{"name":"obj_pagoda_","path":"objects/obj_pagoda_/obj_pagoda_.yy",},"order":6,},
+    {"id":{"name":"spr_QY_Idle","path":"sprites/spr_QY_Idle/spr_QY_Idle.yy",},"order":0,},
     {"id":{"name":"dialog_end","path":"scripts/dialog_end/dialog_end.yy",},"order":6,},
     {"id":{"name":"spr_alleyway","path":"sprites/spr_alleyway/spr_alleyway.yy",},"order":0,},
     {"id":{"name":"obj_floor_3","path":"objects/obj_floor_3/obj_floor_3.yy",},"order":2,},
@@ -234,6 +235,8 @@
     {"folderPath":"folders/Sprites/Lv1(Main)/Environment.yy","order":1,"resourceVersion":"1.0","name":"Environment","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Lv1(Main)/Sketches.yy","order":4,"resourceVersion":"1.0","name":"Sketches","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Lv1(Main)/Environment.yy","order":5,"resourceVersion":"1.0","name":"Environment","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Character.yy","order":15,"resourceVersion":"1.0","name":"Character","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Character/QiuYe.yy","order":1,"resourceVersion":"1.0","name":"QiuYe","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

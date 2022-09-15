@@ -1,4 +1,4 @@
-sprite_index = spr_player_idle;
+sprite_index = spr_QY_Idle;
 image_speed = 1;
 
 //x = obj_startpoint.x;
