@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lv1_01",
-    "path": "sprites/spr_lv1_01/spr_lv1_01.yy",
+    "name": "spr_pinetree2",
+    "path": "sprites/spr_pinetree2/spr_pinetree2.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,11 +25,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Sketches",
-    "path": "folders/Objects/Lv1(Main)/Sketches.yy",
+    "name": "Environment",
+    "path": "folders/Objects/Lv1(Main)/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lvl1_sketch_part1",
+  "name": "obj_pinetree2",
   "tags": [],
   "resourceType": "GMObject",
 }

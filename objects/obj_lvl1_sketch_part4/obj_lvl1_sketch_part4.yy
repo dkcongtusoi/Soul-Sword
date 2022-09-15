@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Lv1(Main)",
-    "path": "folders/Objects/Lv1(Main).yy",
+    "name": "Sketches",
+    "path": "folders/Objects/Lv1(Main)/Sketches.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lvl1_sketch_part4",
