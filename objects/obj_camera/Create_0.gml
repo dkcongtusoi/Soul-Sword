@@ -1,11 +1,11 @@
-camW = camera_get_view_width(view_camera[0]);
-camH = camera_get_view_height(view_camera[0]);
+ori_size_x = 1920;
+ori_size_y = 1080;
 
 offset_x = 30;
 offset_y = 200;
 
-view_x = 0;
-view_y = 0;
+zoom_factor = 1;
+zoomed_in = true;
 
 shake = false;
 

@@ -109,6 +109,17 @@ y = y + vsp;
 //	}
 //}
 
+if hsp == 0{
+	if alarm[1] <0 {
+		alarm[1] = room_speed*2;
+	}
+}else{
+	alarm[1] = -1;
+	if instance_exists(obj_camera){
+		obj_camera.zoomed_in = false;
+	}
+}
+
 if hsp != 0 and !obj_popup.showing{
 	image_xscale = 0.15*sign(hsp);
 }

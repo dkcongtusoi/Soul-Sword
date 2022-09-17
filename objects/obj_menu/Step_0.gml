@@ -13,27 +13,27 @@ if down {
 	image_index++;
 }
 
-if image_index = 0 and accept {
+if image_index == 0 and accept {
 room_goto(Level0)	
 }
 	   
-if image_index = 1 and accept {
+if image_index == 1 and accept {
 room_goto(Level1)	
 }
 
-if image_index = 2 and accept {
+if image_index == 2 and accept {
 room_goto(Level2)	
 }
 
-if image_index = 3 and accept {
+if image_index == 3 and accept {
 room_goto(Level3)	
 }
 
-if image_index = 4 and accept {
+if image_index == 4 and accept {
 room_goto(Level4)	
 }
 
-if image_index = 5 and accept {
+if image_index == 5 and accept {
 game_end()	
 }
 
