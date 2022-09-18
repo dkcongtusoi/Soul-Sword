@@ -68,6 +68,7 @@
     {"id":{"name":"spr_bamboo1","path":"sprites/spr_bamboo1/spr_bamboo1.yy",},"order":18,},
     {"id":{"name":"spr_floor_3","path":"sprites/spr_floor_3/spr_floor_3.yy",},"order":6,},
     {"id":{"name":"spr_popup2","path":"sprites/spr_popup2/spr_popup2.yy",},"order":1,},
+    {"id":{"name":"spr_QY_Run","path":"sprites/spr_QY_Run/spr_QY_Run.yy",},"order":1,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":2,},
     {"id":{"name":"spr_lv1_02","path":"sprites/spr_lv1_02/spr_lv1_02.yy",},"order":1,},
     {"id":{"name":"obj_gateL","path":"objects/obj_gateL/obj_gateL.yy",},"order":4,},
@@ -200,8 +201,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
+    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"roomId":{"name":"Level0","path":"rooms/Level0/Level0.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
@@ -264,7 +265,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.6.1.26",
+    "IDEVersion": "2022.5.0.8",
   },
   "resourceVersion": "1.5",
   "name": "TeamProjectThing",
