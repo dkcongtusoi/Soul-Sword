@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gate",
-    "path": "sprites/spr_gate/spr_gate.yy",
+    "name": "spr_bamboo3",
+    "path": "sprites/spr_bamboo3/spr_bamboo3.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,7 @@
     "path": "folders/Objects/Lv1(Main)/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gate",
+  "name": "obj_bamboo3",
   "tags": [],
   "resourceType": "GMObject",
 }
