@@ -1,14 +1,14 @@
 {
   "spriteId": {
-    "name": "spr_QY_Idle_13",
-    "path": "sprites/spr_QY_Idle_13/spr_QY_Idle_13.yy",
+    "name": "spr_QY_Idle",
+    "path": "sprites/spr_QY_Idle/spr_QY_Idle.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": {
-    "name": "spr_player_idle",
-    "path": "sprites/spr_player_idle/spr_player_idle.yy",
+    "name": "spr_QY_Idle",
+    "path": "sprites/spr_QY_Idle/spr_QY_Idle.yy",
   },
   "persistent": false,
   "parentObjectId": null,
@@ -29,14 +29,17 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"6","rangeEnabled":true,"rangeMin":0.0,"rangeMax":20.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"walkSp","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"20","rangeEnabled":false,"rangeMin":0.0,"rangeMax":30.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"jumpSp","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1.3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":2.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"grv","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":2.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"grv","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"24","rangeEnabled":true,"rangeMin":0.0,"rangeMax":100.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"dashSp","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1","rangeEnabled":true,"rangeMin":0.0,"rangeMax":5.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"slopeMutiplier","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"2","rangeEnabled":true,"rangeMin":0.0,"rangeMax":5.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"slopeMutiplier","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"2.5","rangeEnabled":true,"rangeMin":0.0,"rangeMax":20.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"slowSp","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"isDebug","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

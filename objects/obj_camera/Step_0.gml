@@ -16,7 +16,7 @@ if instance_exists(obj_player){
 	zoom_factor = lerp(zoom_factor, 1, zoomSp);
 
 	}else{
-		zoom_factor = lerp(zoom_factor, 2, zoomSp);
+		zoom_factor = lerp(zoom_factor, 4/3, zoomSp);
 	}
 
 	var view_x = obj_player.x - (camW div 2) - sign(obj_player.hsp)*offset_x;

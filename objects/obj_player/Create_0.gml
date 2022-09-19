@@ -1,4 +1,4 @@
-sprite_index = spr_QY_Idle_13;
+sprite_index = spr_QY_Idle;
 image_speed = 1;
 
 //x = obj_startpoint.x;
@@ -10,8 +10,13 @@ vsp = 0
 isSlow = false;
 muted = false;
 
+isGrounded = true;
 isJump = false;
 
 jumpsmax = 2;
 
 jumps = 0;
+
+isStunned = false;
+
+line = 500;
