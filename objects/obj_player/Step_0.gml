@@ -80,34 +80,34 @@ y = y + vsp;
 #endregion
 
 #region Animation
-if !place_meeting(x, y + 1, obj_collision){
-	image_speed = 0;
-	if vsp > 0{
-		image_index = 0;
-	}else{
-		image_index = 1;
-	}
-	sprite_index = spr_QY_Idle;
-}
-else{
-	if isSlow{
-		image_speed = slowSp/walkSp;
-	}else{
-		image_speed = 1;
-	}
-	if hsp == 0{
-		sprite_index = spr_QY_Idle;
-		audio_stop_sound(snd_running);
+//if !place_meeting(x, y + 1, obj_collision){
+//	image_speed = 0;
+//	if vsp > 0{
+//		image_index = 0;
+//	}else{
+//		image_index = 1;
+//	}
+//	sprite_index = spr_QY_Idle_13;
+//}
+//else{
+//	if isSlow{
+//		image_speed = slowSp/walkSp;
+//	}else{
+//		image_speed = 1;
+//	}
+//	if hsp == 0{
+//		sprite_index = spr_QY_Idle_13;
+//		audio_stop_sound(snd_running);
 
-	}else{
-		if !obj_popup.showing{
-			sprite_index = spr_QY_Run;
-			if !audio_is_playing(snd_running){
-				audio_play_sound(snd_running, 1, 1);
-			}
-		}
-	}
-}
+//	}else{
+//		if !obj_popup.showing{
+//			sprite_index = spr_QY_Run;
+//			if !audio_is_playing(snd_running){
+//				audio_play_sound(snd_running, 1, 1);
+//			}
+//		}
+//	}
+//}
 
 if hsp == 0{
 	if alarm[1] <0 {
@@ -121,7 +121,7 @@ if hsp == 0{
 }
 
 if hsp != 0 and !obj_popup.showing{
-	image_xscale = 0.15*sign(hsp);
+	image_xscale = 0.4*sign(hsp);
 }
 
 #endregion

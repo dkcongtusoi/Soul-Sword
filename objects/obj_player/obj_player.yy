@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_QY_Idle",
-    "path": "sprites/spr_QY_Idle/spr_QY_Idle.yy",
+    "name": "spr_QY_Idle_13",
+    "path": "sprites/spr_QY_Idle_13/spr_QY_Idle_13.yy",
   },
   "solid": false,
   "visible": true,

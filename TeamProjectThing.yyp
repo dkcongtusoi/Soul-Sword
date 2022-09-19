@@ -42,6 +42,7 @@
     {"id":{"name":"obj_god_dl","path":"objects/obj_god_dl/obj_god_dl.yy",},"order":11,},
     {"id":{"name":"spr_one","path":"sprites/spr_one/spr_one.yy",},"order":3,},
     {"id":{"name":"dialog_get_picture","path":"scripts/dialog_get_picture/dialog_get_picture.yy",},"order":4,},
+    {"id":{"name":"spr_QY_Idle_13","path":"sprites/spr_QY_Idle_13/spr_QY_Idle_13.yy",},"order":2,},
     {"id":{"name":"spr_rustedsword","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},"order":19,},
     {"id":{"name":"_6","path":"sprites/_6/_6.yy",},"order":6,},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},"order":1,},
