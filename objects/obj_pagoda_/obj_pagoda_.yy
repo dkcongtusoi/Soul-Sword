@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_pagoda_",
-    "path": "sprites/spr_pagoda_/spr_pagoda_.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

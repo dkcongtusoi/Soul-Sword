@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_shrine",
-    "path": "sprites/spr_shrine/spr_shrine.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

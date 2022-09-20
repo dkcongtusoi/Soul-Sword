@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pinetree",
-    "path": "sprites/spr_pinetree/spr_pinetree.yy",
+    "name": "spr_shrubs",
+    "path": "sprites/spr_shrubs/spr_shrubs.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,7 @@
     "path": "folders/Objects/Lv1(Main)/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pinetree1",
+  "name": "obj_shrubs",
   "tags": [],
   "resourceType": "GMObject",
 }

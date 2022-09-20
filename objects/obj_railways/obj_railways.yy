@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_railways",
-    "path": "sprites/spr_railways/spr_railways.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

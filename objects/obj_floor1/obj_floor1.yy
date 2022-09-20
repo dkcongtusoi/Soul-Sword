@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pinetree",
-    "path": "sprites/spr_pinetree/spr_pinetree.yy",
+    "name": "spr_floor1",
+    "path": "sprites/spr_floor1/spr_floor1.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,7 @@
     "path": "folders/Objects/Lv1(Main)/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pinetree1",
+  "name": "obj_floor1",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_liangting",
-    "path": "sprites/spr_liangting/spr_liangting.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

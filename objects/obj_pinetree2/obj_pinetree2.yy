@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_pinetree2",
-    "path": "sprites/spr_pinetree2/spr_pinetree2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
