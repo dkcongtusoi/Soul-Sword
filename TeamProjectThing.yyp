@@ -138,6 +138,7 @@
     {"id":{"name":"spr_shrubs","path":"sprites/spr_shrubs/spr_shrubs.yy",},"order":28,},
     {"id":{"name":"draw_set_align","path":"scripts/draw_set_align/draw_set_align.yy",},"order":0,},
     {"id":{"name":"spr_player_run","path":"sprites/spr_player_run/spr_player_run.yy",},"order":2,},
+    {"id":{"name":"spr_Fallingleaves","path":"sprites/spr_Fallingleaves/spr_Fallingleaves.yy",},"order":16,},
     {"id":{"name":"spr_bg_tile_outside","path":"sprites/spr_bg_tile_outside/spr_bg_tile_outside.yy",},"order":2,},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":14,},
     {"id":{"name":"spr_floor_3_cl","path":"sprites/spr_floor_3_cl/spr_floor_3_cl.yy",},"order":10,},
@@ -269,7 +270,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.6.1.26",
+    "IDEVersion": "2022.5.0.8",
   },
   "resourceVersion": "1.5",
   "name": "TeamProjectThing",
