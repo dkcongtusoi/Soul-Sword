@@ -1,7 +1,7 @@
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
-interact = keyboard_check_pressed(ord("Z"));
+interact = keyboard_check_pressed(ord("F"));
 if !obj_popup.showing jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
 
 //Height Check
@@ -206,7 +206,7 @@ if keyboard_check_pressed(ord("R")){
 	}
 }
 
-if keyboard_check_pressed(ord("F")){	
+if keyboard_check_pressed(vk_f11){	
 	if window_get_fullscreen(){
 		window_set_fullscreen(false);
 	}else{

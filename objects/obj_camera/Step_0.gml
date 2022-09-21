@@ -11,12 +11,16 @@ if instance_exists(obj_player){
 	
 	var camW = camera_get_view_width(camID);
 	var camH = camera_get_view_height(camID);	
-
+	if !global.isTalking{
 	if zoomed_in{
-	zoom_factor = lerp(zoom_factor, 1, zoomSp);
+		zoom_factor = lerp(zoom_factor, 1, zoomSp);
 
-	}else{
-		zoom_factor = lerp(zoom_factor, 4/3, zoomSp);
+		}else{
+			zoom_factor = lerp(zoom_factor, 4/3, zoomSp);
+		}
+	}
+	else{
+		zoom_factor = lerp(zoom_factor, 0.5, zoomSp*1.5);
 	}
 
 	var view_x = obj_player.x - (camW div 2) - sign(obj_player.hsp)*offset_x;

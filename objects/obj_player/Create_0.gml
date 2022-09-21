@@ -20,3 +20,5 @@ jumps = 0;
 isStunned = false;
 
 line = 500;
+
+global.isTalking = false;
