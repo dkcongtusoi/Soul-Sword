@@ -22,3 +22,4 @@ isStunned = false;
 line = 500;
 
 global.isTalking = false;
+//global.currentDialogue = noone;

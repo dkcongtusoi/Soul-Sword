@@ -1,20 +1,4 @@
-if global.startDialogue{
-	position_botbar_y = lerp(position_botbar_y, position_botbar_y_end, 0.05);
-	position_topbar_y = lerp(position_topbar_y, position_topbar_y_end, 0.05);
-}
-if dialogue_done{
-	position_botbar_y = lerp(position_botbar_y, position_botbar_y_start, 0.05);
-	position_topbar_y = lerp(position_topbar_y, position_topbar_y_start, 0.05);
-}
-
-if (abs(position_botbar_y - position_botbar_y_end) <= 5){
-	can_display_text = true;
-}
-if dialogue_done and (abs(position_botbar_y - position_botbar_y_start) <= 2){
-	instance_destroy();
-}
-
-if can_display_text{
+//if can_display_text{
 	//if !is_waiting_for_keypress{
 		
 	//	character_index += choose(0.75, 1, 1.25, 1.5);
@@ -34,10 +18,12 @@ if can_display_text{
 			
 			if dialog_end(){
 				global.isTalking = false;
+				global.startDialogue = false;
 				obj_honger.already_talked_to = true;
-				dialogue_done = true;
+				obj_blackbar.dialogue_done = true;
+				instance_destroy();
 				
 			}
 		}
 	//}	
-}
+//}
