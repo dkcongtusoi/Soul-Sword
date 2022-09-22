@@ -21,6 +21,9 @@ if instance_exists(obj_player){
 	}
 	else{
 		zoom_factor = lerp(zoom_factor, 0.5, zoomSp*1.5);
+		if zoom_factor <= 0.505{
+			global.startDialogue = true;
+		}
 	}
 
 	var view_x = obj_player.x - (camW div 2) - sign(obj_player.hsp)*offset_x;
