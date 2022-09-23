@@ -20,3 +20,5 @@ dialog_add(spr_Honger_Icon, "Yes! I need to hurry home soon before my mama beats
 
 
 dialog_reset();
+
+offset = 700;
