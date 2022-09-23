@@ -1,7 +1,7 @@
 //if can_display_text{
 	draw_set_align(fa_center, fa_middle);
 	
-	//draw_sprite(dialog_get_picture(), 0, 300, display_get_gui_height() + 200);
+	draw_sprite(dialog_get_picture(), 0, 700, display_get_gui_height() - 128);
 	
 	var message = dialog_get_text();
 	
