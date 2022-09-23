@@ -21,7 +21,7 @@ if instance_exists(obj_player){
 	}
 	else{
 		zoom_factor = lerp(zoom_factor, 0.5, zoomSp*1.5);
-		if zoom_factor <= 0.505{
+		if zoom_factor <= 0.51{
 			global.startDialogue = true;
 			var current_camX = camX;
 			var current_camY = camY;
@@ -56,7 +56,7 @@ if instance_exists(obj_player){
 			instance_create_depth(camX - 64, camY, depth, obj_blockout,{
 				image_yscale : camH
 			});
-			instance_create_depth(camW, camY, depth, obj_blockout,{
+			instance_create_depth(camX + camW, camY, depth, obj_blockout,{
 				image_yscale : camH
 			});
 		}
