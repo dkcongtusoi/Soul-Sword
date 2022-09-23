@@ -168,6 +168,7 @@
     {"id":{"name":"obj_lotus","path":"objects/obj_lotus/obj_lotus.yy",},"order":6,},
     {"id":{"name":"scribble_font_duplicate","path":"scripts/scribble_font_duplicate/scribble_font_duplicate.yy",},"order":6,},
     {"id":{"name":"obj_bgtree2","path":"objects/obj_bgtree2/obj_bgtree2.yy",},"order":25,},
+    {"id":{"name":"spr_onewayplatform","path":"sprites/spr_onewayplatform/spr_onewayplatform.yy",},"order":3,},
     {"id":{"name":"obj_arrow_dl","path":"objects/obj_arrow_dl/obj_arrow_dl.yy",},"order":10,},
     {"id":{"name":"scribble_font_add_all","path":"scripts/scribble_font_add_all/scribble_font_add_all.yy",},"order":1,},
     {"id":{"name":"dialog_add","path":"scripts/dialog_add/dialog_add.yy",},"order":9,},

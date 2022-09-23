@@ -34,12 +34,12 @@
   ],
   "properties": [
     {"varType":0,"value":"6","rangeEnabled":true,"rangeMin":0.0,"rangeMax":20.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"walkSp","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"20","rangeEnabled":false,"rangeMin":0.0,"rangeMax":30.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"jumpSp","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":2.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"grv","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"18","rangeEnabled":false,"rangeMin":0.0,"rangeMax":30.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"jumpSp","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"1.1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":2.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"grv","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"24","rangeEnabled":true,"rangeMin":0.0,"rangeMax":100.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"dashSp","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"2","rangeEnabled":true,"rangeMin":0.0,"rangeMax":5.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"slopeMutiplier","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"2.5","rangeEnabled":true,"rangeMin":0.0,"rangeMax":20.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"slowSp","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"isDebug","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"isDebug","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

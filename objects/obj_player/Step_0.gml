@@ -9,9 +9,11 @@ if obj_popup.showing{
 }
 
 //Height Check
-if !collision_line(x, y, x, y + line, obj_collision, 0, 1){	
-	isStunned = true;
-}
+//if !collision_line(x, y, x, y + line, obj_collision, 0, 1){	
+//	isStunned = true;
+//	cor = c_red
+//}else{ cor = c_yellow}
+
 var limiter = 1;
 if isStunned && isGrounded{
 	limiter = 0;
@@ -239,3 +241,5 @@ if muted {
 }
 
 #endregion
+
+show_debug_message(isStunned);

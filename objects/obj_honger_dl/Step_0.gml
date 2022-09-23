@@ -34,4 +34,3 @@ if mouse_wheel_up(){
 if mouse_wheel_down(){
 	offset -= 5;
 }
-show_debug_message(offset);
