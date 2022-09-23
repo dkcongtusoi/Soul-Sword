@@ -23,6 +23,8 @@ if instance_exists(obj_player){
 		zoom_factor = lerp(zoom_factor, 0.5, zoomSp*1.5);
 		if zoom_factor <= 0.505{
 			global.startDialogue = true;
+			var current_camX = camX;
+			var current_camY = camY;
 		}
 	}
 
@@ -37,9 +39,28 @@ if instance_exists(obj_player){
 	
 	view_x = clamp(view_x, min_view_x, max_view_x);
 	view_y = clamp(view_y, min_view_y, max_view_y);
-
-	camX = lerp(camX, view_x, camSp);
-	camY = lerp(camY, view_y, camSp);
+	
+	if !global.startDialogue{
+		camX = lerp(camX, view_x, camSp);
+		camY = lerp(camY, view_y, camSp);
+		if instance_exists(obj_blockout){
+			instance_destroy(obj_blockout);
+		}
+	}else{
+		camX = current_camX;
+		camY = current_camY;
+		if !instance_exists(obj_blockout){
+			instance_create_depth(camX, camY, depth, obj_blockout,{
+				image_xscale : camW
+			});
+			instance_create_depth(camX - 64, camY, depth, obj_blockout,{
+				image_yscale : camH
+			});
+			instance_create_depth(camW, camY, depth, obj_blockout,{
+				image_yscale : camH
+			});
+		}
+	}
 	
 }else{
 	camX = 0;

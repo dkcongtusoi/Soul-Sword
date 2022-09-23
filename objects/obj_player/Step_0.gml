@@ -2,7 +2,11 @@ key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 interact = keyboard_check_pressed(ord("F"));
-if !obj_popup.showing jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
+jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
+
+if obj_popup.showing{
+	jump = 0;
+}
 
 //Height Check
 if !collision_line(x, y, x, y + line, obj_collision, 0, 1){	
@@ -15,8 +19,14 @@ if isStunned && isGrounded{
 	limiter = 1;
 }
 #region Movement
+var dir = key_right - key_left;
 
-var dir = key_right - key_left
+//Lock player's movement when starting to zoom in
+//Unlock when dialogue starts
+if global.isTalking && !global.startDialogue{
+	jump = 0;
+	dir = 0;
+}
 
 if !key_right or !key_left{
 	if !isSlow{

@@ -4,6 +4,7 @@ if place_meeting(x, y, obj_player){
 	if !instance_exists(obj_Honger_dl) and !already_talked_to and interact{
 		global.isTalking = true;
 		instance_create_depth(x, y, -10, obj_blackbar);
+		is_happy = true;
 		
 	}
 	if instance_exists(obj_Honger_dl){
@@ -16,4 +17,6 @@ if place_meeting(x, y, obj_player){
 
 if is_happy{
 	sprite_index = spr_Honger_Happy;
+}else{
+	sprite_index = spr_Honger_Idle;
 }
