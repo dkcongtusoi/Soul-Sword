@@ -255,6 +255,7 @@
     {"id":{"name":"spr_bg_tile_outside","path":"sprites/spr_bg_tile_outside/spr_bg_tile_outside.yy",},"order":2,},
     {"id":{"name":"draw_text_scribble_ext","path":"scripts/draw_text_scribble_ext/draw_text_scribble_ext.yy",},"order":1,},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":14,},
+    {"id":{"name":"obj_onewayplatform","path":"objects/obj_onewayplatform/obj_onewayplatform.yy",},"order":4,},
     {"id":{"name":"spr_pagodaeffect","path":"sprites/spr_pagodaeffect/spr_pagodaeffect.yy",},"order":8,},
     {"id":{"name":"spr_floor_3_cl","path":"sprites/spr_floor_3_cl/spr_floor_3_cl.yy",},"order":10,},
     {"id":{"name":"spr_rock2","path":"sprites/spr_rock2/spr_rock2.yy",},"order":7,},
