@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_rock1",
-    "path": "sprites/spr_rock1/spr_rock1.yy",
+    "name": "spr_bamboofloor",
+    "path": "sprites/spr_bamboofloor/spr_bamboofloor.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,7 @@
     "path": "folders/Objects/Lv1(Main)/Environment/part 3.1 bamboo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_rock1",
+  "name": "obj_bamboofloor",
   "tags": [],
   "resourceType": "GMObject",
 }

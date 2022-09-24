@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 138,
-  "bbox_right": 468,
-  "bbox_top": 64,
-  "bbox_bottom": 916,
+  "bbox_left": 25,
+  "bbox_right": 84,
+  "bbox_top": 11,
+  "bbox_bottom": 164,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 600,
-  "height": 984,
+  "width": 108,
+  "height": 177,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7bfa86a3-8b50-40f5-b3be-0076d7fa42f7","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7bfa86a3-8b50-40f5-b3be-0076d7fa42f7","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},"LayerId":{"name":"c154621d-fa81-4e6c-905c-e5f99bd0017d","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rustedsword","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},"resourceVersion":"1.0","name":"7bfa86a3-8b50-40f5-b3be-0076d7fa42f7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fd70d9c0-a11c-437b-9c13-42837dcc4450","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fd70d9c0-a11c-437b-9c13-42837dcc4450","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},"LayerId":{"name":"2e4aa0f4-0f3e-4eed-b4e5-a8b6035ffb7f","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_rustedsword","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},"resourceVersion":"1.0","name":"fd70d9c0-a11c-437b-9c13-42837dcc4450","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_rustedsword","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7f0d278a-fc6e-46ce-926d-820fd418c518","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7bfa86a3-8b50-40f5-b3be-0076d7fa42f7","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"73cc16af-b379-4c03-ace7-c0b8e9a483d2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd70d9c0-a11c-437b-9c13-42837dcc4450","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c154621d-fa81-4e6c-905c-e5f99bd0017d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2e4aa0f4-0f3e-4eed-b4e5-a8b6035ffb7f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Environment",
-    "path": "folders/Sprites/Lv1(Main)/Environment.yy",
+    "name": "part 3.1 bamboo",
+    "path": "folders/Sprites/Lv1(Main)/Environment/part 3.1 bamboo.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_rustedsword",

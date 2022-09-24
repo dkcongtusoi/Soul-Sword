@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 290,
-  "bbox_right": 1140,
-  "bbox_top": 0,
-  "bbox_bottom": 1472,
+  "bbox_left": 31,
+  "bbox_right": 1057,
+  "bbox_top": 20,
+  "bbox_bottom": 1416,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1500,
-  "height": 1500,
+  "width": 1100,
+  "height": 1450,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c2b7b0ff-de3a-4757-869d-0d6e6df4fd7d","path":"sprites/spr_rock1/spr_rock1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c2b7b0ff-de3a-4757-869d-0d6e6df4fd7d","path":"sprites/spr_rock1/spr_rock1.yy",},"LayerId":{"name":"f51afb6f-3e48-42ae-b813-b191c0e3b551","path":"sprites/spr_rock1/spr_rock1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rock1","path":"sprites/spr_rock1/spr_rock1.yy",},"resourceVersion":"1.0","name":"c2b7b0ff-de3a-4757-869d-0d6e6df4fd7d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0b8375fc-6f58-4a14-9e00-55d4680e227e","path":"sprites/spr_rock1/spr_rock1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0b8375fc-6f58-4a14-9e00-55d4680e227e","path":"sprites/spr_rock1/spr_rock1.yy",},"LayerId":{"name":"88989825-e413-49bf-9ae9-c6a04f1507e8","path":"sprites/spr_rock1/spr_rock1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_rock1","path":"sprites/spr_rock1/spr_rock1.yy",},"resourceVersion":"1.0","name":"0b8375fc-6f58-4a14-9e00-55d4680e227e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_rock1","path":"sprites/spr_rock1/spr_rock1.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"41d4fc87-6013-4023-8c39-5e1d795b71a1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2b7b0ff-de3a-4757-869d-0d6e6df4fd7d","path":"sprites/spr_rock1/spr_rock1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"da2a8d09-95cc-4eae-affb-5f102adc6b5f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0b8375fc-6f58-4a14-9e00-55d4680e227e","path":"sprites/spr_rock1/spr_rock1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f51afb6f-3e48-42ae-b813-b191c0e3b551","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"88989825-e413-49bf-9ae9-c6a04f1507e8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Environment",
-    "path": "folders/Sprites/Lv1(Main)/Environment.yy",
+    "name": "part 3.1 bamboo",
+    "path": "folders/Sprites/Lv1(Main)/Environment/part 3.1 bamboo.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_rock1",

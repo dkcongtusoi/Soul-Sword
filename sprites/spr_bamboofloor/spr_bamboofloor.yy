@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 68,
-  "bbox_right": 1336,
-  "bbox_top": 5,
-  "bbox_bottom": 1887,
+  "bbox_left": 78,
+  "bbox_right": 2172,
+  "bbox_top": 29,
+  "bbox_bottom": 620,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1400,
-  "height": 1900,
+  "width": 2250,
+  "height": 650,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a1129a67-a2bf-4308-8783-a20cb0787a3b","path":"sprites/spr_rock2/spr_rock2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a1129a67-a2bf-4308-8783-a20cb0787a3b","path":"sprites/spr_rock2/spr_rock2.yy",},"LayerId":{"name":"1dae1f5c-92da-4890-a27a-896e264edceb","path":"sprites/spr_rock2/spr_rock2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rock2","path":"sprites/spr_rock2/spr_rock2.yy",},"resourceVersion":"1.0","name":"a1129a67-a2bf-4308-8783-a20cb0787a3b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"29d82cb9-25d2-462c-b2f7-05516cbb878c","path":"sprites/spr_bamboofloor/spr_bamboofloor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"29d82cb9-25d2-462c-b2f7-05516cbb878c","path":"sprites/spr_bamboofloor/spr_bamboofloor.yy",},"LayerId":{"name":"9d6ba1ef-afde-41c2-b6b5-02005807dea4","path":"sprites/spr_bamboofloor/spr_bamboofloor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bamboofloor","path":"sprites/spr_bamboofloor/spr_bamboofloor.yy",},"resourceVersion":"1.0","name":"29d82cb9-25d2-462c-b2f7-05516cbb878c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_rock2","path":"sprites/spr_rock2/spr_rock2.yy",},
+    "spriteId": {"name":"spr_bamboofloor","path":"sprites/spr_bamboofloor/spr_bamboofloor.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2050549d-98c7-404f-9b41-ad2bae1cde07","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a1129a67-a2bf-4308-8783-a20cb0787a3b","path":"sprites/spr_rock2/spr_rock2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"f31c78b4-17c2-473a-a725-27d5b7514841","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"29d82cb9-25d2-462c-b2f7-05516cbb878c","path":"sprites/spr_bamboofloor/spr_bamboofloor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_rock2","path":"sprites/spr_rock2/spr_rock2.yy",},
+    "parent": {"name":"spr_bamboofloor","path":"sprites/spr_bamboofloor/spr_bamboofloor.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_rock2",
+    "name": "spr_bamboofloor",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1dae1f5c-92da-4890-a27a-896e264edceb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9d6ba1ef-afde-41c2-b6b5-02005807dea4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Lv1(Main)/Environment/part 3.1 bamboo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_rock2",
+  "name": "spr_bamboofloor",
   "tags": [],
   "resourceType": "GMSprite",
 }

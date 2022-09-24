@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Environment",
-    "path": "folders/Objects/Lv1(Main)/Environment.yy",
+    "name": "part 3.1 bamboo",
+    "path": "folders/Objects/Lv1(Main)/Environment/part 3.1 bamboo.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_rock2",
