@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "part 1.4 river",
-    "path": "folders/Objects/Lv1(Main)/Environment/part 1.4 river.yy",
+    "name": "part 2.2 river",
+    "path": "folders/Objects/Lv1(Main)/Environment/part 2.2 river.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_riverbushes",

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "part 1.4 lanterns",
-    "path": "folders/Sprites/Lv1(Main)/Environment/part 1.4 lanterns.yy",
+    "name": "part 2.2 lanterns",
+    "path": "folders/Sprites/Lv1(Main)/Environment/part 2.2 lanterns.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bushesriver",

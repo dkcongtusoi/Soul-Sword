@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_pond_building",
-    "path": "sprites/spr_pond_building/spr_pond_building.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

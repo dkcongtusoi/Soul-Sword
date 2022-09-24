@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pinetree2",
-    "path": "sprites/spr_pinetree2/spr_pinetree2.yy",
+    "name": "spr_pondbgfade",
+    "path": "sprites/spr_pondbgfade/spr_pondbgfade.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,7 @@
     "path": "folders/Objects/Lv1(Main)/Environment/part 2.3 pond.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pinetree2",
+  "name": "obj_pondbgfade",
   "tags": [],
   "resourceType": "GMObject",
 }
