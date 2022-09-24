@@ -39,18 +39,17 @@ if !key_right or !key_left{
 }
 vsp = vsp + grv;
 
-//Dash
-
 
 
 //Jump check
 if place_meeting(x, y + 1, obj_collision){
 	jumps = jumpsmax;
-	isGrounded = true;
+	//isGrounded = true;
 	isJump = false;
-}else{
-	isGrounded = false;
 }
+//else{
+//	isGrounded = false;
+//}
 
 if jump and jumps > 0 and !isStunned{
 	jumps -= 1;
@@ -104,7 +103,7 @@ if place_meeting(x, y + vsp, obj_collision){
 }
 y = y + vsp;
 
-
+isGrounded = place_meeting(x, y + max(1, vsp), obj_collision);
 
 #endregion
 
@@ -121,49 +120,80 @@ if isStunned && isGrounded{
 	}
 }
 if !isStunned{
-if isGrounded && isJump{
-	sprite_index = spr_QY_StartEnd;
-	if vsp <= -1 {
-		sprite_index = spr_QY_Jumping;
+//if isGrounded && isJump{
+//	sprite_index = spr_QY_StartEnd;
+//	if vsp <= -1 {
+//		sprite_index = spr_QY_Jumping;
+//	}
+//	else if vsp > -1 and vsp < 1{
+//		sprite_index = spr_QY_Peak;
+//	}
+//	else{
+//		sprite_index = spr_QY_Falling;
+//	}
+//}
+//else
+if !isGrounded{
+	if isJump{
+		if vsp <= -5 {
+			sprite_index = spr_QY_Jumping;
+		}
+		else if vsp > -5 and vsp < 13{
+			sprite_index = spr_QY_Peak;
+		}
+		else{		
+			sprite_index = spr_QY_Falling;
+		}
+	}else{
+		//if vsp > -5 and vsp < 13{
+		//	sprite_index = spr_QY_Peak;
+		//}
+		//else{		
+		//	sprite_index = spr_QY_Falling;
+		//}
+		if vsp > 4 and vsp < 15{
+			sprite_index = spr_QY_Peak;
+		}else if vsp >= 15{
+			sprite_index = spr_QY_Falling;
+			
+		}
 	}
-	else if vsp > -1 and vsp < 1{
-		sprite_index = spr_QY_Peak;
-	}
-	else{
-		sprite_index = spr_QY_Falling;
-	}
-}
-else if !isGrounded && isJump{
-	if vsp <= -5 {
-		sprite_index = spr_QY_Jumping;
-	}
-	else if vsp > -5 and vsp < 15{
-		sprite_index = spr_QY_Peak;
-	}
-	else{		
-		sprite_index = spr_QY_Falling;
-	}	
 }else{
 	if isSlow{
 		image_speed = slowSp/walkSp;
 	}else{
 		image_speed = 1;
 	}
-	if hsp == 0{		
-		audio_stop_sound(snd_running);
+	if hsp == 0{
+		//audio_stop_sound(snd_running);
 		if key_down{
 			sprite_index = spr_QY_StartEnd;
 		}
 	}else{
 		if !obj_popup.showing{
 			sprite_index = spr_QY_Run;
-			if !audio_is_playing(snd_running){
-				audio_play_sound(snd_running, 1, 1);
-			}
+			//if !audio_is_playing(snd_running){
+			//	audio_play_sound(snd_running, 1, 1);
+			//}
 		}
 	}
 }
 }
+
+if isGrounded{
+	if hsp != 0{
+		if !audio_is_playing(snd_running){
+				audio_play_sound(snd_running, 1, 1);
+			}
+	}else{
+		audio_stop_sound(snd_running);
+	}
+}else{
+	if vsp >= 10{
+		audio_stop_sound(snd_running);
+	}
+}
+
 if hsp == 0{
 	if alarm[1] <0 {
 		alarm[1] = room_speed*2;
@@ -176,7 +206,7 @@ if hsp == 0{
 }
 
 if hsp != 0 and !obj_popup.showing{
-	image_xscale = 0.4*sign(hsp);
+	image_xscale = 0.35*sign(hsp);
 }
 
 #endregion
@@ -241,5 +271,4 @@ if muted {
 }
 
 #endregion
-
-show_debug_message(isStunned);
+show_debug_message(vsp);
