@@ -94,6 +94,7 @@
     {"id":{"name":"spr_QY_Peak","path":"sprites/spr_QY_Peak/spr_QY_Peak.yy",},"order":5,},
     {"id":{"name":"spr_QY_Idle","path":"sprites/spr_QY_Idle/spr_QY_Idle.yy",},"order":2,},
     {"id":{"name":"obj_pagoda","path":"objects/obj_pagoda/obj_pagoda.yy",},"order":0,},
+    {"id":{"name":"obj_lantern_dl","path":"objects/obj_lantern_dl/obj_lantern_dl.yy",},"order":8,},
     {"id":{"name":"spr_bushesriver","path":"sprites/spr_bushesriver/spr_bushesriver.yy",},"order":2,},
     {"id":{"name":"obj_ltmountain","path":"objects/obj_ltmountain/obj_ltmountain.yy",},"order":30,},
     {"id":{"name":"spr_rustedsword","path":"sprites/spr_rustedsword/spr_rustedsword.yy",},"order":6,},
