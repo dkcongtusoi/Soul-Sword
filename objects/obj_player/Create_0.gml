@@ -8,7 +8,7 @@ hsp = 0
 vsp = 0
 
 isSlow = false;
-muted = false;
+
 
 isGrounded = true;
 isJump = false;

@@ -12,24 +12,3 @@ if image_index == image_number - 1{
 		sprite_index = spr_retribution
 	}
 }
-
-#region QOL
-
-if keyboard_check_pressed(ord("R")){
-	if keyboard_check(vk_shift){
-		game_restart();
-	}else{
-		room_restart();
-	}
-}
-
-if keyboard_check_pressed(ord("F")){	
-	if window_get_fullscreen(){
-		window_set_fullscreen(false);
-	}else{
-		window_set_fullscreen(true);
-	}
-}
-
-
-#endregion

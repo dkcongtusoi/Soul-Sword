@@ -30,8 +30,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "LevelControl",
+    "path": "folders/Objects/LevelControl.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_nextlvl",

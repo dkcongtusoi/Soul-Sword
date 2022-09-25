@@ -1,5 +1,5 @@
+var camID = view_camera[0];
 if instance_exists(obj_player){
-	var camID = view_camera[0];
 	
 	var camX = camera_get_view_x(camID);
 	var camY = camera_get_view_y(camID);

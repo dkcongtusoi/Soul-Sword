@@ -1,8 +1,16 @@
-if keyboard_check_pressed(vk_space){
-	if image_index != 1{
-		image_index = 1;
-		alarm[1] = room_speed*2;
+image_alpha = lerp(image_alpha, 1, 0.025);
+if image_alpha >= 0.9{
+	if !instance_exists(obj_blackbar) && !is_finished{
+		global.bar_size = 200;
+		with instance_create_depth(x, y, depth, obj_blackbar){			
+			choosen_dialogue = obj_lv0_dialogue;
+		}
+		global.startDialogue = true;
 	}
+}
+
+if !instance_exists(obj_blackbar) && is_finished && !global.startDialogue{
+	room_goto(Level1);
 }
 
 //Dialogue Code
@@ -17,25 +25,3 @@ if keyboard_check_pressed(vk_space){
 //		alarm[1] = room_speed*1;
 //	}
 //}
-
-
-#region QOL
-
-if keyboard_check_pressed(ord("R")){
-	if keyboard_check(vk_shift){
-		game_restart();
-	}else{
-		room_restart();
-	}
-}
-
-if keyboard_check_pressed(ord("F")){	
-	if window_get_fullscreen(){
-		window_set_fullscreen(false);
-	}else{
-		window_set_fullscreen(true);
-	}
-}
-
-
-#endregion

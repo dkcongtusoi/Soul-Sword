@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bg",
-    "path": "sprites/spr_bg/spr_bg.yy",
+    "name": "spr_cutscene_opening",
+    "path": "sprites/spr_cutscene_opening/spr_cutscene_opening.yy",
   },
   "solid": false,
   "visible": true,

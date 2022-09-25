@@ -13,4 +13,3 @@ range = 5;
 
 duration = room_speed*0.5;
 
-global.startDialogue = false;

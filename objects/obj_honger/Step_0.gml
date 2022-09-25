@@ -9,7 +9,9 @@ if collision_circle(x, y - sprite_height/2, rad, obj_player, 1, 0){
 	if !instance_exists(obj_Honger_dl) and !already_talked_to and interact{
 		global.isTalking = true;
 		if !instance_exists(obj_blackbar){
-			instance_create_depth(x, y, -10, obj_blackbar);
+			global.bar_size = 310;
+			instance_create_depth(x, y, -10, obj_blackbar);			
+			obj_blackbar.choosen_dialogue = obj_Honger_dl;
 		}
 		is_happy = true;
 	}
