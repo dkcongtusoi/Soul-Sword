@@ -356,6 +356,9 @@
         {"properties":[
             {"propertyId":{"name":"itemDialogue","path":"objects/obj_soulorb/obj_soulorb.yy",},"objectId":{"name":"obj_soulorb","path":"objects/obj_soulorb/obj_soulorb.yy",},"value":"obj_oldsword_dl","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_soulorb","path":"objects/obj_soulorb/obj_soulorb.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":13231.0,"y":5128.0,"resourceVersion":"1.0","name":"inst_89FF69","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"itemDialogue","path":"objects/obj_kite/obj_kite.yy",},"objectId":{"name":"obj_kite","path":"objects/obj_kite/obj_kite.yy",},"value":"obj_kite_dl","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_kite","path":"objects/obj_kite/obj_kite.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":17599.0,"y":1374.0,"resourceVersion":"1.0","name":"inst_3E5F6DB6","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_gateL","path":"objects/obj_gateL/obj_gateL.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":257.0,"y":5568.0,"resourceVersion":"1.0","name":"inst_2DF09D80","tags":[],"resourceType":"GMRInstance",},
@@ -834,6 +837,7 @@
     {"name":"inst_6DCF0D5E","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_459AC049","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_89FF69","path":"rooms/Level1/Level1.yy",},
+    {"name":"inst_3E5F6DB6","path":"rooms/Level1/Level1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

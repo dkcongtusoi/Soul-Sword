@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_soulorb",
-    "path": "sprites/spr_soulorb/spr_soulorb.yy",
+    "name": "spr_kite",
+    "path": "sprites/spr_kite/spr_kite.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
     "path": "folders/Objects/Lv1(Main)/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_soulorb",
+  "name": "obj_kite",
   "tags": [],
   "resourceType": "GMObject",
 }
