@@ -6,8 +6,10 @@ if image_alpha >= 0.9{
 		global.bar_size = 200;
 		with instance_create_depth(x, y, depth, obj_blackbar){			
 			choosen_dialogue = obj_lv0_dialogue;
+			dialogue_start = true;
+			global.startDialogue = true;
 		}
-		global.startDialogue = true;
+		
 	}
 }
 

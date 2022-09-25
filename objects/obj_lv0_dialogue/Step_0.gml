@@ -5,6 +5,7 @@ if keyboard_check_released(ord("X")){
 	dialog_next();
 	if dialog_end(){
 		obj_blackbar.dialogue_done = true;
+		obj_blackbar.dialogue_start = false;
 		global.startDialogue = false;
 		obj_BG.is_finished = true;
 		instance_destroy();				

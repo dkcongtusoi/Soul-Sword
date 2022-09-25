@@ -206,7 +206,7 @@
     {"id":{"name":"spr_leafspawn","path":"sprites/spr_leafspawn/spr_leafspawn.yy",},"order":13,},
     {"id":{"name":"scribble_super_create","path":"scripts/scribble_super_create/scribble_super_create.yy",},"order":1,},
     {"id":{"name":"string_height_scribble_ext","path":"scripts/string_height_scribble_ext/string_height_scribble_ext.yy",},"order":3,},
-    {"id":{"name":"obj_QOL","path":"objects/obj_QOL/obj_QOL.yy",},"order":1,},
+    {"id":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},"order":1,},
     {"id":{"name":"spr_popup1","path":"sprites/spr_popup1/spr_popup1.yy",},"order":0,},
     {"id":{"name":"scribble_flush_everything","path":"scripts/scribble_flush_everything/scribble_flush_everything.yy",},"order":3,},
     {"id":{"name":"obj_liangtingfade","path":"objects/obj_liangtingfade/obj_liangtingfade.yy",},"order":29,},
@@ -479,7 +479,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.6.1.26",
+    "IDEVersion": "2022.5.0.8",
   },
   "resourceVersion": "1.5",
   "name": "TeamProjectThing",

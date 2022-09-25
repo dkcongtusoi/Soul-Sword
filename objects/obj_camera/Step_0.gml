@@ -23,6 +23,9 @@ if instance_exists(obj_player){
 		zoom_factor = lerp(zoom_factor, 0.5, zoomSp*1.5);
 		if zoom_factor <= 0.51{
 			global.startDialogue = true;
+			if instance_exists(obj_blackbar){
+				obj_blackbar.dialogue_start = true;
+			}
 			var current_camX = camX;
 			var current_camY = camY;
 		}

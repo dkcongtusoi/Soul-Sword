@@ -29,7 +29,7 @@
     "path": "folders/Objects/LevelControl.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_QOL",
+  "name": "obj_init",
   "tags": [],
   "resourceType": "GMObject",
 }

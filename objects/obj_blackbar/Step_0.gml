@@ -1,4 +1,4 @@
-if global.startDialogue{
+if dialogue_start{
 	position_botbar_y = lerp(position_botbar_y, position_botbar_y_end, 0.05);
 	position_topbar_y = lerp(position_topbar_y, position_topbar_y_end, 0.05);
 }
