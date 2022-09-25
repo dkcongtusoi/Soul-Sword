@@ -25,3 +25,5 @@ global.isTalking = false;
 //global.currentDialogue = noone;
 
 cor = c_yellow
+
+audio_listener_orientation(0,1,0,0,0,1); 

@@ -251,3 +251,9 @@ if keyboard_check_pressed(ord("L")){
 show_debug_message(vsp);
 
 }
+
+audio_listener_position(x, y, 0);
+
+dist = point_distance(x, y, obj_emitterriver.x, obj_emitterriver.y);
+dist = point_distance(x, y, obj_emittermountain.x, obj_emittermountain.y);
+dist = point_distance(x, y, obj_emitterwindyclouds.x, obj_emitterwindyclouds.y);
