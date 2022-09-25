@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.55,
+  "volume": 0.05,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_running.wav",
-  "duration": 5.900159,
+  "soundFile": "snd_running.mp3",
+  "duration": 10.13551,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",
