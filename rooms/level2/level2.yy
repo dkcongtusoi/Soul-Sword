@@ -482,7 +482,6 @@
             {"propertyId":{"name":"roomlvl","path":"objects/obj_nextlvl/obj_nextlvl.yy",},"objectId":{"name":"obj_nextlvl","path":"objects/obj_nextlvl/obj_nextlvl.yy",},"value":"Level3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_nextlvl","path":"objects/obj_nextlvl/obj_nextlvl.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294937600,"rotation":0.0,"scaleX":1.0,"scaleY":6.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":12448.0,"y":4170.0,"resourceVersion":"1.0","name":"inst_2131933B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":73.0,"y":1158.8,"resourceVersion":"1.0","name":"inst_6D484604","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_leafspawn","path":"objects/obj_leafspawn/obj_leafspawn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":736.0,"resourceVersion":"1.0","name":"inst_49807190","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_cavebg2","path":"sprites/spr_cavebg2/spr_cavebg2.yy",},"headPosition":0.0,"rotation":-190.55765,"scaleX":0.70133334,"scaleY":0.4789688,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2560.0,"y":1792.0,"resourceVersion":"1.0","name":"graphic_4C4380A1","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -654,7 +653,6 @@
     {"name":"inst_61054506","path":"rooms/Level2/Level2.yy",},
     {"name":"inst_2131933B","path":"rooms/Level2/Level2.yy",},
     {"name":"inst_6D484604","path":"rooms/Level2/Level2.yy",},
-    {"name":"inst_49807190","path":"rooms/Level2/Level2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
