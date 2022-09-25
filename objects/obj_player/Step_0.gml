@@ -1,3 +1,5 @@
+if global.canMove{
+
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
@@ -247,3 +249,5 @@ if keyboard_check_pressed(ord("L")){
 
 #endregion
 show_debug_message(vsp);
+
+}

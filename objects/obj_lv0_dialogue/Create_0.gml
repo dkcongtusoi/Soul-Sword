@@ -17,8 +17,10 @@ dialog_add(noone, "Me!");
 dialog_add(noone, " ");
 dialog_add(noone, " ");
 dialog_add(noone, " ");
+dialog_add(noone, "");
 dialog_add(noone, "I tried, I promise");
 dialog_add(noone, "I'm sorry...");
+dialog_add(noone, " ");
 dialog_add(noone, "I miss you everyday");
 dialog_add(noone, "Your legacy");
 dialog_add(noone, "Our future");
@@ -27,6 +29,4 @@ dialog_add(noone, "I, Qiu Ye");
 dialog_add(noone, "Swear to you");
 dialog_add(noone, "My unyielding devotion");
 dialog_add(noone, "Beyond life...!");
-
-
 dialog_reset();

@@ -1,4 +1,6 @@
-image_alpha = lerp(image_alpha, 1, 0.025);
+if !is_finished{
+	image_alpha = lerp(image_alpha, 1, 0.025);
+}
 if image_alpha >= 0.9{
 	if !instance_exists(obj_blackbar) && !is_finished{
 		global.bar_size = 200;
@@ -9,8 +11,17 @@ if image_alpha >= 0.9{
 	}
 }
 
+
+
+//if !instance_exists(obj_blackbar) && is_finished && !global.startDialogue{
+//	room_goto(Level1);
+//}
+
 if !instance_exists(obj_blackbar) && is_finished && !global.startDialogue{
-	room_goto(Level1);
+	image_alpha = lerp(image_alpha, 0, 0.025);
+	if image_alpha <= 0.02{
+		room_goto(Level1);
+	}
 }
 
 //Dialogue Code
