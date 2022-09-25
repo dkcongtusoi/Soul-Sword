@@ -17,7 +17,8 @@ dialog_add(spr_Honger_Icon, "Would you help me find my [slant][#FAF0CA]kite?[/c]
 dialog_add(spr_Honger_Icon, "I chased it all the way from my village far back that way.");
 dialog_add(spr_QY_Icon, "The [#b6d055]Bamboo Village?[/c]");
 dialog_add(spr_Honger_Icon, "Yes! I need to hurry home soon before my mama beats me with the broom, \nso please help me find my kite!");
-
+dialog_add(spr_QY_Icon, "You said your kite flew towards the east?");
+dialog_add(spr_Honger_Icon, "Yes, and now I have to go find it! Bye bye.");
 
 dialog_reset();
 

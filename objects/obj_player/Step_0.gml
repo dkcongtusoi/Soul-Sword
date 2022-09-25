@@ -213,42 +213,13 @@ if hsp != 0 and !obj_popup.showing{
 
 #endregion
 
-#region Collectibles
-
-var _lotus = instance_place(x, y, obj_lotus)
-
-if _lotus != noone{
-	_lotus.image_index = 1;
-	global.popup = _lotus.chosenSprite;
-	global.item = _lotus.choosenItem;
-	if interact{
-		obj_popup.triggered = true;
-		alarm[0] = room_speed;
-	}
-	
-
-}
-
-if obj_popup.showing{
-	if interact and !instance_exists(global.item){
-		obj_popup.triggered = false;
-		obj_popup.showing = false;
-	}
-}
-
-
-
-#endregion
-
 #region Debug
 
 if keyboard_check_pressed(ord("L")){
 	isSlow = !isSlow;
 }
-
-
 #endregion
-show_debug_message(vsp);
+
 
 }
 
