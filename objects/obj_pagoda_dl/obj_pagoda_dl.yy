@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "Dialogue",
+    "path": "folders/Objects/Lv1(Main)/Dialogue.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pagoda_dl",

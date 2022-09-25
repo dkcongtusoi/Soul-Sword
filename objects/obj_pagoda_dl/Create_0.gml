@@ -1,10 +1,13 @@
-can_display_text = false;
-
-character_index = 0;
-
-is_waiting_for_keypress = false;
 
 dialog_init();
-dialog_add(spr_QY_box, "Ruo Lian and I used to walk here often… \nI can still feel the weight of her hand upon my arm.");
+
+dialog_add(spr_QY_Icon, "I remember the night before the princess died.");
+dialog_add(spr_QY_Icon, "It was warm, her voice soft and melancholic.");
+dialog_add(spr_QY_Icon, "We would visit the pagoda every season to view the full moon.");
+
 
 dialog_reset();
+
+offset = 700;
+
+dialogue_done = false;
