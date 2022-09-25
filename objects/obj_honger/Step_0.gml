@@ -1,7 +1,7 @@
 var interact = keyboard_check_pressed(ord("F"));
 if collision_circle(x, y - sprite_height/2, rad, obj_player, 1, 0){
-	if !instance_exists(obj_F_Button) && !already_talked_to && !global.isTalking{
-		instance_create_depth(x, bbox_top - 25, depth, obj_F_Button,{	
+	if !instance_exists(obj_F_Button_2) && !already_talked_to && !global.isTalking{
+		instance_create_depth(x, bbox_top - 25, depth, obj_F_Button_2,{	
 			image_xscale : 0.05,
 			image_yscale : 0.05
 		});
@@ -18,7 +18,7 @@ if collision_circle(x, y - sprite_height/2, rad, obj_player, 1, 0){
 		is_happy = true;
 	}
 }else{
-	instance_destroy(obj_F_Button);
+	instance_destroy(obj_F_Button_2);
 }
 
 if is_happy{

@@ -5,7 +5,7 @@ if image_alpha >= 0.9{
 	if !instance_exists(obj_blackbar) && !is_finished{
 		global.bar_size = 200;
 		with instance_create_depth(x, y, depth, obj_blackbar){			
-			choosen_dialogue = obj_lv0_dialogue;
+			chosenDialogue = obj_lv0_dialogue;
 			dialogue_start = true;
 			global.startDialogue = true;
 		}

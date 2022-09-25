@@ -304,6 +304,7 @@
     {"id":{"name":"draw_set","path":"scripts/draw_set/draw_set.yy",},"order":1,},
     {"id":{"name":"spr_cavebg1","path":"sprites/spr_cavebg1/spr_cavebg1.yy",},"order":4,},
     {"id":{"name":"SND_BGM_LVL4_CAVE","path":"sounds/SND_BGM_LVL4_CAVE/SND_BGM_LVL4_CAVE.yy",},"order":4,},
+    {"id":{"name":"obj_F_Button_2","path":"objects/obj_F_Button_2/obj_F_Button_2.yy",},"order":5,},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},"order":0,},
     {"id":{"name":"obj_cloud2","path":"objects/obj_cloud2/obj_cloud2.yy",},"order":5,},
     {"id":{"name":"spr_cutscene_opening","path":"sprites/spr_cutscene_opening/spr_cutscene_opening.yy",},"order":0,},
@@ -389,9 +390,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Level0","path":"rooms/Level0/Level0.yy",},},
+    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
   ],
