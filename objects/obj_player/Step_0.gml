@@ -52,8 +52,13 @@ if place_meeting(x, y + 1, obj_collision){
 //else{
 //	isGrounded = false;
 //}
-
+if key_down{
+	if !instance_exists(obj_Jump_VFX){
+		instance_create_depth(x, y, -1000, obj_Jump_VFX);
+	}
+}
 if jump and jumps > 0 and !isStunned{
+
 	jumps -= 1;
 	isJump = true;
 	if !isSlow{
