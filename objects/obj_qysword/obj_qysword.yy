@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_QYSword",
-    "path": "sprites/spr_QYSword/spr_QYSword.yy",
+    "name": "spr_QYSword_L",
+    "path": "sprites/spr_QYSword_L/spr_QYSword_L.yy",
   },
   "solid": false,
   "visible": true,
