@@ -21,7 +21,7 @@ if can_display_text{
 	var _boxH = _hh + _mm*2;
 	
 	var drawX = x - _boxW/2;
-	var drawY = y - _boxH/2 - 30;
+	var drawY = y - _boxH;
 
 
 	draw_set_color(c_white);
@@ -29,7 +29,7 @@ if can_display_text{
 	draw_set_align(fa_center, fa_middle);
 	draw_sprite_stretched(spr_textbox, image_index, drawX, drawY, _boxW, _boxH);
 	
-	draw_text_ext(x, drawY + _boxH/2, text, -1, max_width);
+	draw_text_ext(x, y - _boxH/2 - _mm/2, text, -1, max_width);
 	//draw_circle_color(x, y - _boxH/2, 2, c_red, c_red, 0);
 
 	draw_reset();
