@@ -22,23 +22,37 @@ else{
 	image_speed = 0;
 	if obj_player.image_xscale > 0{
 		image_angle = -30;
-		if !obj_player.key_down{
-			anchor_x = obj_player.x + 13;
-			anchor_y = obj_player.y - 130;
+		if obj_player.key_down or obj_player.isHoldingJump{
+			anchor_x = obj_player.x + 27;
+			anchor_y = obj_player.y - 110;
 		}else{
 			anchor_x = obj_player.x + 13;
-			anchor_y = obj_player.y - 100;
+			anchor_y = obj_player.y - 130;			
 		}
+		//if !obj_player.key_down or !obj_player.isHoldingJump{
+		//	anchor_x = obj_player.x + 13;
+		//	anchor_y = obj_player.y - 130;
+		//}else{
+		//	anchor_x = obj_player.x + 13;
+		//	anchor_y = obj_player.y - 70;			
+		//}
 	}
 	if obj_player.image_xscale < 0{
 		image_angle = 30;
-		if !obj_player.key_down{
-			anchor_x = obj_player.x - 13;
-			anchor_y = obj_player.y - 130;
+		if obj_player.key_down or obj_player.isHoldingJump{
+			anchor_x = obj_player.x - 27;
+			anchor_y = obj_player.y - 110;
 		}else{
 			anchor_x = obj_player.x - 13;
-			anchor_y = obj_player.y - 100;
+			anchor_y = obj_player.y - 130;
 		}
+		//if !obj_player.key_down or !obj_player.isHoldingJump{
+		//	anchor_x = obj_player.x - 13;
+		//	anchor_y = obj_player.y - 130;
+		//}else{
+		//	anchor_x = obj_player.x - 13;
+		//	anchor_y = obj_player.y - 70;
+		//}
 	}
 }
 

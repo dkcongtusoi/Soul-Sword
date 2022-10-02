@@ -5,7 +5,8 @@ key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 interact = keyboard_check_pressed(ord("F"));
 jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
-
+jump_hold = keyboard_check(vk_space) || keyboard_check(ord("W")) || keyboard_check(vk_up);
+jump_released = keyboard_check_released(vk_space) || keyboard_check_released(ord("W")) || keyboard_check_released(vk_up);
 if obj_popup.showing{
 	jump = 0;
 }
@@ -45,33 +46,80 @@ vsp = vsp + grv;
 
 //Jump check
 if place_meeting(x, y + 1, obj_collision){
-	jumps = jumpsmax;
-	//isGrounded = true;
 	isJump = false;
+	if jump_hold and !key_left and !key_right{
+		isHoldingJump = true;
+		timer++;
+		if timer >= room_speed*1{
+			jumpSp = jumpSpMax;
+		}
+		//if jumpSp < jumpSpMax{
+		//	jumpSp += 0.1;
+		//}
+	}else if jump_released{
+		isHoldingJump = false;
+		isJump = true;
+		vsp -= jumpSp;
+		jumpSp = 20;
+		timer = 0;
+	}else if jump{
+		isHoldingJump = false;
+		isJump = true;
+		vsp -= jumpSp;
+		timer = 0;
+	}
+	if key_left or key_right{
+		jumpSp = 20;
+		timer = 0;
+	}
 }
-//else{
-//	isGrounded = false;
+
+
+//if place_meeting(x, y + 1, obj_collision){
+//	isJump = false;
+//	if jump {
+//		isJump = true;
+//		if !isSlow{
+//			vsp = -jumpSp;
+//		}else{
+//			vsp = -jumpSp/2;
+//		}
+//	}
 //}
-if key_down{
+
+//if vsp < 0 and !jump_hold{
+//	vsp = max(vsp, -jumpSp/2);
+//}
+
+//if place_meeting(x, y + 1, obj_collision){
+//	jumps = jumpsmax;
+//	////isGrounded = true;
+//	isJump = false;
+//}
+//////else{
+//////	isGrounded = false;
+//////}
+
+//if jump and jumps > 0 and !isStunned{
+
+//	jumps -= 1;
+//	isJump = true;
+//	if !isSlow{
+//		vsp = -jumpSp;
+//	}else{
+//		vsp = -jumpSp/2;
+//	}
+//	if !audio_is_playing(snd_jump){
+//		audio_play_sound(snd_jump, 1, 0);
+//	}
+//	audio_stop_sound(snd_running);
+//}
+
+if isHoldingJump and jumpSp >= jumpSpMax{
 	if !instance_exists(obj_Jump_VFX){
-		instance_create_depth(x, y, -1000, obj_Jump_VFX);
+		instance_create_depth(x, y, 1, obj_Jump_VFX);
 	}
 }
-if jump and jumps > 0 and !isStunned{
-
-	jumps -= 1;
-	isJump = true;
-	if !isSlow{
-		vsp = -jumpSp;
-	}else{
-		vsp = -jumpSp/2;
-	}
-	if !audio_is_playing(snd_jump){
-		audio_play_sound(snd_jump, 1, 0);
-	}
-	audio_stop_sound(snd_running);
-}
-
 
 //Horizontal Collision
 if place_meeting(x + hsp, y, obj_collision){
@@ -173,7 +221,7 @@ if !isGrounded{
 	}
 	if hsp == 0{
 		//audio_stop_sound(snd_running);
-		if key_down{
+		if key_down or isHoldingJump{
 			sprite_index = spr_QY_StartEnd;
 		}
 	}else{

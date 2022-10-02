@@ -7,8 +7,11 @@ image_speed = 1;
 hsp = 0
 vsp = 0
 
+timer = 0;
+
 isSlow = false;
 
+isHoldingJump = false;
 
 isGrounded = true;
 isJump = false;
