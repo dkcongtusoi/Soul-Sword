@@ -1,4 +1,4 @@
 if place_meeting(x, y, obj_player){
-	instance_destroy(hongerID);
+	instance_destroy(inst_3FA3B672);
 	instance_destroy();
 }

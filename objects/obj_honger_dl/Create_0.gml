@@ -1,8 +1,5 @@
 can_display_text = false;
 
-//if global.currentDialogue != noone{
-//	global.currentDialogue = id;
-//}
 
 character_index = 0;
 

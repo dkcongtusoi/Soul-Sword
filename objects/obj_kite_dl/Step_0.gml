@@ -1,4 +1,4 @@
-if keyboard_check_released(ord("X")){
+if keyboard_check_released(ord("F")){
 
 	dialog_next();
 			

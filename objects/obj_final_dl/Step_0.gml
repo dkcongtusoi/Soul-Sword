@@ -9,7 +9,7 @@ if can_display_text{
 		if (delta_time mod (room_speed*0.1) == 0){
 			character_index += 1.25;
 		}
-		if keyboard_check_pressed(ord("X")){
+		if keyboard_check_pressed(ord("F")){
 			character_index = string_length(dialog_get_text());
 		}
 		
@@ -17,7 +17,7 @@ if can_display_text{
 			is_waiting_for_keypress = true;
 		}
 	}else{
-		if keyboard_check_pressed(ord("X")){
+		if keyboard_check_pressed(ord("F")){
 			is_waiting_for_keypress = false;
 			character_index = 0;
 			dialog_next();

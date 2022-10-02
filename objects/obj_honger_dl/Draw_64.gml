@@ -11,7 +11,7 @@
 	
 	//if is_waiting_for_keypress{
 		draw_set_align(fa_left, fa_middle);
-		text = "[scale, 0.5][pulse][c_white]X:NEXT[/colour][/pulse][/s]";
+		text = "[scale, 0.5][pulse][c_white]F:NEXT[/colour][/pulse][/s]";
 		var text_length = string_width(text);
 		draw_set_font(fnt_one);
 		draw_text_scribble(display_get_gui_width() - 200,  display_get_gui_height() - 50, text);

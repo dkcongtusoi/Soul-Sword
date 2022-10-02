@@ -47,5 +47,3 @@ else{
 
 x = anchor_x;
 y = anchor_y;
-
-show_debug_message(sign(obj_player.image_xscale))
