@@ -8,10 +8,10 @@ y = clamp(y, view_h_half, room_height - view_h_half);
 
 if !global.isTalking{
 	if zoomed_in{
-		zoom_factor = lerp(zoom_factor, 1, zoomSp);
+		zoom_factor = lerp(zoom_factor, 4/3, zoomSp);
 
 	}else{
-		zoom_factor = lerp(zoom_factor, 4/3, zoomSp);
+		zoom_factor = lerp(zoom_factor, 1, zoomSp);
 	}
 }else{
 	zoom_factor = lerp(zoom_factor, 0.5, zoomSp*1.5);

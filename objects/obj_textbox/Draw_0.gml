@@ -13,8 +13,12 @@ if can_display_text{
 //draw_text_ext(drawX + _mm, drawY + _mm, text, -1, max_width);
 	draw_set_font(fnt_two);
 	
-	var _ww = string_width_ext(text, -1, max_width);
-	var _hh = string_height_ext(text, -1, max_width);
+	var wantSize = 12;
+	var currSize = string_height(_text);
+	var scale = wantSize / currSize;
+	
+	var _ww = string_width_ext(_text, -1, max_width) * scale;
+	var _hh = string_height_ext(_text, -1, max_width) * scale;
 	var _mm = 10;
 	
 	var _boxW = _ww + _mm*2;
@@ -29,7 +33,7 @@ if can_display_text{
 	draw_set_align(fa_center, fa_middle);
 	draw_sprite_stretched(spr_textbox, image_index, drawX, drawY, _boxW, _boxH);
 	
-	draw_text_ext(x, y - _boxH/2 - _mm/2, text, -1, max_width);
+	draw_text_ext_transformed(x, y - _boxH/2, _text, -1, max_width, scale, scale, 0);
 	//draw_circle_color(x, y - _boxH/2, 2, c_red, c_red, 0);
 
 	draw_reset();

@@ -8,7 +8,7 @@ if place_meeting(x, y, obj_player) && !has_created{
 					chosenDialogue = obj_Sword01_dl;
 					dialogue_start = true;
 				}
-			}			
+			}
 			instance_destroy();
 		}
 }

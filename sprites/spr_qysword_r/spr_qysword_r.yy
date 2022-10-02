@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Sword",
+    "path": "folders/Sprites/Character/Sword.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_QYSword_R",
