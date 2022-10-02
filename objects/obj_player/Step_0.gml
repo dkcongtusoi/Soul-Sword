@@ -62,6 +62,10 @@ if place_meeting(x, y + 1, obj_collision){
 		vsp -= jumpSp;
 		jumpSp = 20;
 		timer = 0;
+		if !audio_is_playing(snd_jump){
+			audio_play_sound(snd_jump, 1, 0);
+		}
+		audio_stop_sound(snd_running);
 	}else if jump{
 		isHoldingJump = false;
 		isJump = true;

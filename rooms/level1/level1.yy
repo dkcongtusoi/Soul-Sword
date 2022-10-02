@@ -371,6 +371,7 @@
         {"properties":[
             {"propertyId":{"name":"isDebug","path":"objects/obj_honger/obj_honger.yy",},"objectId":{"name":"obj_honger","path":"objects/obj_honger/obj_honger.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_honger","path":"objects/obj_honger/obj_honger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.35,"scaleY":0.35,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3011.0,"y":5147.0,"resourceVersion":"1.0","name":"inst_3FA3B672","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":101.98007,"y":5979.895,"resourceVersion":"1.0","name":"inst_A12622","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_gateL","path":"objects/obj_gateL/obj_gateL.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":257.0,"y":5568.0,"resourceVersion":"1.0","name":"inst_2DF09D80","tags":[],"resourceType":"GMRInstance",},
@@ -856,6 +857,7 @@
     {"name":"inst_6BB8B053","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_412458A1","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_3FA3B672","path":"rooms/Level1/Level1.yy",},
+    {"name":"inst_A12622","path":"rooms/Level1/Level1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

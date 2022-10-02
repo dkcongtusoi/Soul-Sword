@@ -1,60 +1,38 @@
-accept_key = keyboard_check_pressed(ord("F"));
+draw_self();
+if can_display_text{
+//draw_set_font(fnt_two);
+//var _ww = string_width_ext(text, -1, max_width);
+//var _hh = string_height_ext(text, -1, max_width);
+//var _mm = 10;
 
-// setup
-if setup == false
-	{
-		setup = true;
-		draw_set_font(global.font_speech);
-		draw_set_valign(fa_top);
-		draw_set_halign(fa_left);
-		
-		// loop through the pages
-		page_number = array_length(text);
-		for(var p = 0; p < page_number; p++)
-			{
-			
-			//find how many characters on each page and store that number in the text_legnth array
-			text_length[p] = string_length(text[p]);
-			
-			}
-	}
+//var drawX = x - sprite_width/2;
+//var drawY = y - sprite_height;
 
-// typing the text
-if draw_char < text_length[page]
-	{
-		draw_char += text_spd;
-		draw_char = clamp(draw_char, 0, text_length[page]);
-	}
+//draw_sprite_stretched(spr_textbox, 6, drawX, drawY, _ww + _mm*2, _hh + _mm*2);
+//draw_set_color(c_white);
+//draw_text_ext(drawX + _mm, drawY + _mm, text, -1, max_width);
+	draw_set_font(fnt_two);
 	
+	var _ww = string_width_ext(text, -1, max_width);
+	var _hh = string_height_ext(text, -1, max_width);
+	var _mm = 10;
+	
+	var _boxW = _ww + _mm*2;
+	var _boxH = _hh + _mm*2;
+	
+	var drawX = x - _boxW/2;
+	var drawY = y - _boxH/2 - 30;
 
-// flip through pages
-if accept_key
-	{
-		//if the typing is done
-		if draw_char == text_length[page]
-			{
-				if page < page_number-1
-					{
-						page++;
-						draw_char = 0;
-					}
-				//destroy textbox
-				else
-				{
-					instance_destroy();
-				}
-			}
-			// if not done typing
-	else
-			{
-				draw_char = text_length[page];
-			}
-			
-	}
 
-// draw the text box
-draw_sprite(spr_textbox_placeholder, image_index,392,693)
+	draw_set_color(c_white);
 
-// draw text
-var _drawtext = string_copy(text[page],1, draw_char);
-draw_text_ext(392 + border,693 + border,  _drawtext, line_sep, line_width)
+	draw_set_align(fa_center, fa_middle);
+	draw_sprite_stretched(spr_textbox, image_index, drawX, drawY, _boxW, _boxH);
+	
+	draw_text_ext(x, drawY + _boxH/2, text, -1, max_width);
+	//draw_circle_color(x, y - _boxH/2, 2, c_red, c_red, 0);
+
+	draw_reset();
+
+}
+
