@@ -1,11 +1,11 @@
 if obj_player.sprite_index == spr_QY_Idle{
 	if obj_player.image_xscale > 0{
 		image_angle = -39;
-		anchor_x = obj_player.x - 25;
+		anchor_x = obj_player.x - 23;
 	}
 	if obj_player.image_xscale < 0{
 		image_angle = 39;
-		anchor_x = obj_player.x + 25;
+		anchor_x = obj_player.x + 23;
 	}
 	anchor_y = obj_player.y - 80 + offset;
 	
