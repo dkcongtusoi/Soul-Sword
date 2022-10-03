@@ -1,5 +1,4 @@
 if keyboard_check_released(ord("F")){
-
 	dialog_next();
 			
 	if dialog_end(){

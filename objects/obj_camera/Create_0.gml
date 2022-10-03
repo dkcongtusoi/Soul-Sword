@@ -29,4 +29,5 @@ follow = obj_player;
 xTo = x;
 yTo = y;
 
-offset = 200;
+offsetX = 0;
+offsetY = 200;

@@ -30,8 +30,8 @@ var size_y = ori_size_y*zoom_factor;
 
 if follow != noone{
 	if !global.startDialogue{
-		xTo = follow.x;
-		yTo = follow.y - offset;
+		xTo = follow.x + offsetX;
+		yTo = follow.y - offsetY;
 		if instance_exists(obj_blockout){
 			instance_destroy(obj_blockout);
 		}
@@ -59,3 +59,4 @@ var pm = matrix_build_projection_ortho(size_x, size_y, 1, 10000);
 camera_set_view_mat(camera, vm);
 camera_set_proj_mat(camera, pm);
 
+show_debug_message(offsetX);
