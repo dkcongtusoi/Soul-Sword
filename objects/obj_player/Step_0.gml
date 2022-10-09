@@ -60,6 +60,7 @@ if place_meeting(x, y + 1, obj_collision){
 		isHoldingJump = false;
 		isJump = true;
 		vsp -= jumpSp;
+		//vsp_frac = 0;
 		jumpSp = 20;
 		timer = 0;
 		if !audio_is_playing(snd_jump){
@@ -70,6 +71,7 @@ if place_meeting(x, y + 1, obj_collision){
 		isHoldingJump = false;
 		isJump = true;
 		vsp -= jumpSp;
+		//vsp_frac = 0;
 		timer = 0;
 	}
 	if key_left or key_right{
@@ -77,6 +79,15 @@ if place_meeting(x, y + 1, obj_collision){
 		timer = 0;
 	}
 }
+
+	//Get rid of fractions and return integer value
+/*	hsp += hsp_frac;
+	vsp += vsp_frac;
+	hsp_frac = frac(hsp);
+	vsp_frac = frac(vsp);
+	hsp -= hsp_frac;
+	vsp -= vsp_frac; 
+*/
 
 
 //if place_meeting(x, y + 1, obj_collision){
@@ -125,6 +136,22 @@ if isHoldingJump and jumpSp >= jumpSpMax{
 	}
 }
 
+// Moving platform collision
+//var _movingPlatform = instance_place(x, y + max(1, vsp), obj_lilypad);
+//if (_movingPlatform && bbox_bottom <= _movingPlatform.bbox_top) {
+if place_meeting(x, y + sign(vsp), obj_lilypad){
+	if vsp > 0{
+		while !place_meeting(x, y + sign(vsp), obj_lilypad){
+			y += sign(vsp);
+		}
+		vsp = 0;
+		//vsp_frac = 0;
+	}
+	//x += _movingPlatform.moveX;
+	//y += _movingPlatform.moveY;
+	x += obj_lilypad.moveX;
+	y += obj_lilypad.moveY;
+}
 //Horizontal Collision
 if place_meeting(x + hsp, y, obj_collision){
 	//Upward slopes
@@ -137,6 +164,7 @@ if place_meeting(x + hsp, y, obj_collision){
 			x = x + sign(hsp);	
 		}
 		hsp = 0;
+		//hsp_frac = 0;
 	}else{
 		y -= yplus;
 	}
@@ -152,17 +180,20 @@ if !place_meeting(x, y, obj_collision) && vsp >= 0 && place_meeting(x, y + 2 + a
 		}
 	}
 
+
+
 //Vertical Collision
 if place_meeting(x, y + vsp, obj_collision){
 	while !place_meeting(x, y + sign(vsp), obj_collision){
 		y = y + sign(vsp);	
 	}
 	vsp = 0;
+	//vsp_frac = 0;
 
 }
-y = y + vsp;
+y += vsp;
 
-isGrounded = place_meeting(x, y + max(1, vsp), obj_collision);
+isGrounded = place_meeting(x, y + max(1, vsp), obj_collision) || place_meeting(x, y + max(1, vsp), obj_lilypad);
 
 #endregion
 

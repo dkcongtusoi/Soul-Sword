@@ -7,6 +7,12 @@ image_speed = 1;
 hsp = 0
 vsp = 0
 
+hsp_frac = 0;
+vsp_frac = 0;
+
+moveX = 0;
+moveY = 0;
+
 timer = 0;
 
 isSlow = false;

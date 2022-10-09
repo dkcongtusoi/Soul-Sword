@@ -58,5 +58,3 @@ var pm = matrix_build_projection_ortho(size_x, size_y, 1, 10000);
 
 camera_set_view_mat(camera, vm);
 camera_set_proj_mat(camera, pm);
-
-show_debug_message(offsetX);
