@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Jump_VFX",
-    "path": "sprites/spr_Jump_VFX/spr_Jump_VFX.yy",
+    "name": "spr_jumpanim",
+    "path": "sprites/spr_jumpanim/spr_jumpanim.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,6 +24,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

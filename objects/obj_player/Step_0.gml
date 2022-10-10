@@ -132,7 +132,7 @@ if place_meeting(x, y + 1, obj_collision) || place_meeting(x, y + 1, obj_lilypad
 
 if isHoldingJump and jumpSp >= jumpSpMax{
 	if !instance_exists(obj_Jump_VFX){
-		instance_create_depth(x, y, 1, obj_Jump_VFX);
+		instance_create_depth(x, y - 60, 1, obj_Jump_VFX);
 	}
 }
 
