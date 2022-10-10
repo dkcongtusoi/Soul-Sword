@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 301,
-  "bbox_right": 1757,
-  "bbox_top": 269,
-  "bbox_bottom": 3185,
+  "bbox_left": 1128,
+  "bbox_right": 1448,
+  "bbox_top": 2393,
+  "bbox_bottom": 2486,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9459b4ec-f602-429d-9e69-ab7bd793fba1","path":"sprites/spr_river/spr_river.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9459b4ec-f602-429d-9e69-ab7bd793fba1","path":"sprites/spr_river/spr_river.yy",},"LayerId":{"name":"211c778d-a10b-4a1a-93e1-b19cbb2d5a8b","path":"sprites/spr_river/spr_river.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_river","path":"sprites/spr_river/spr_river.yy",},"resourceVersion":"1.0","name":"9459b4ec-f602-429d-9e69-ab7bd793fba1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c71c507a-b9e9-49b1-99bd-3d4ef2a09bcf","path":"sprites/spr_trioriverrock/spr_trioriverrock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c71c507a-b9e9-49b1-99bd-3d4ef2a09bcf","path":"sprites/spr_trioriverrock/spr_trioriverrock.yy",},"LayerId":{"name":"c4fb4cb8-e2ef-4e97-9d49-76002ba6cebc","path":"sprites/spr_trioriverrock/spr_trioriverrock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_trioriverrock","path":"sprites/spr_trioriverrock/spr_trioriverrock.yy",},"resourceVersion":"1.0","name":"c71c507a-b9e9-49b1-99bd-3d4ef2a09bcf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_river","path":"sprites/spr_river/spr_river.yy",},
+    "spriteId": {"name":"spr_trioriverrock","path":"sprites/spr_trioriverrock/spr_trioriverrock.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2515443e-146f-4ad9-8f89-850958ef21a3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9459b4ec-f602-429d-9e69-ab7bd793fba1","path":"sprites/spr_river/spr_river.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"52019c78-ebf8-4442-80d7-6b07ecc3bc71","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c71c507a-b9e9-49b1-99bd-3d4ef2a09bcf","path":"sprites/spr_trioriverrock/spr_trioriverrock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_river","path":"sprites/spr_river/spr_river.yy",},
+    "parent": {"name":"spr_trioriverrock","path":"sprites/spr_trioriverrock/spr_trioriverrock.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_river",
+    "name": "spr_trioriverrock",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"211c778d-a10b-4a1a-93e1-b19cbb2d5a8b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c4fb4cb8-e2ef-4e97-9d49-76002ba6cebc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Lv1(Main)/Environment/part 2.2 lanterns.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_river",
+  "name": "spr_trioriverrock",
   "tags": [],
   "resourceType": "GMSprite",
 }
