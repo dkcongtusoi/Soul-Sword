@@ -22,6 +22,8 @@ isHoldingJump = false;
 isGrounded = true;
 isJump = false;
 
+can_jump = true;
+
 jumpsmax = 2;
 
 jumps = 0;

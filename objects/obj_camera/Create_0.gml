@@ -31,3 +31,5 @@ yTo = y;
 
 offsetX = 0;
 offsetY = 200;
+offsetY_original = 200;
+offsetYY = 0;

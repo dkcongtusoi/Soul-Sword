@@ -14,9 +14,10 @@ if !global.isTalking{
 		zoom_factor = lerp(zoom_factor, 1, zoomSp);
 	}
 }else{
-	zoom_factor = lerp(zoom_factor, 0.5, zoomSp*1.5);
+	offsetY = lerp(offsetY, 0, 0.1);
+	zoom_factor = lerp(zoom_factor, 0.5, zoomSp*1.5);	
 	if zoom_factor <= 0.51{
-		global.startDialogue = true;
+		global.startDialogue = true;		
 		if instance_exists(obj_blackbar){
 			obj_blackbar.dialogue_start = true;
 		}
@@ -30,6 +31,7 @@ var size_y = ori_size_y*zoom_factor;
 
 if follow != noone{
 	if !global.startDialogue{
+		offsetY = lerp(offsetY, offsetY_original, 0.1);
 		xTo = follow.x + offsetX;
 		yTo = follow.y - offsetY;
 		if instance_exists(obj_blockout){
@@ -58,3 +60,5 @@ var pm = matrix_build_projection_ortho(size_x, size_y, 1, 10000);
 
 camera_set_view_mat(camera, vm);
 camera_set_proj_mat(camera, pm);
+
+show_debug_message(offsetY);

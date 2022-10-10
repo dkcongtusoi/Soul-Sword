@@ -45,7 +45,7 @@ vsp = vsp + grv;
 
 
 //Jump check
-if place_meeting(x, y + 1, obj_collision){
+if place_meeting(x, y + 1, obj_collision) || place_meeting(x, y + 1, obj_lilypad){
 	isJump = false;
 	if jump_hold and !key_left and !key_right{
 		isHoldingJump = true;
@@ -139,19 +139,7 @@ if isHoldingJump and jumpSp >= jumpSpMax{
 // Moving platform collision
 //var _movingPlatform = instance_place(x, y + max(1, vsp), obj_lilypad);
 //if (_movingPlatform && bbox_bottom <= _movingPlatform.bbox_top) {
-if place_meeting(x, y + sign(vsp), obj_lilypad){
-	if vsp > 0{
-		while !place_meeting(x, y + sign(vsp), obj_lilypad){
-			y += sign(vsp);
-		}
-		vsp = 0;
-		//vsp_frac = 0;
-	}
-	//x += _movingPlatform.moveX;
-	//y += _movingPlatform.moveY;
-	x += obj_lilypad.moveX;
-	y += obj_lilypad.moveY;
-}
+
 //Horizontal Collision
 if place_meeting(x + hsp, y, obj_collision){
 	//Upward slopes
