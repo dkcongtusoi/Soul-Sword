@@ -4,6 +4,8 @@ if follow_path{
 		started = true;
 		path_start(path_name, path_speed, path_act, path_abso);
 	}
+
+	
 }
 
 if keyboard_check_pressed(ord("U")){
