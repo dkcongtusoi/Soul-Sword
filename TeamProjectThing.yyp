@@ -255,6 +255,7 @@
     {"id":{"name":"scribble_anim_wheel","path":"scripts/scribble_anim_wheel/scribble_anim_wheel.yy",},"order":8,},
     {"id":{"name":"__scribble_font_add_sprite","path":"scripts/__scribble_font_add_sprite/__scribble_font_add_sprite.yy",},"order":8,},
     {"id":{"name":"obj_emitterriver","path":"objects/obj_emitterriver/obj_emitterriver.yy",},"order":0,},
+    {"id":{"name":"spr_jumpanim","path":"sprites/spr_jumpanim/spr_jumpanim.yy",},"order":4,},
     {"id":{"name":"spr_bgtree2","path":"sprites/spr_bgtree2/spr_bgtree2.yy",},"order":12,},
     {"id":{"name":"obj_startpoint","path":"objects/obj_startpoint/obj_startpoint.yy",},"order":0,},
     {"id":{"name":"spr_stair","path":"sprites/spr_stair/spr_stair.yy",},"order":5,},
