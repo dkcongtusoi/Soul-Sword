@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 337,
-  "bbox_right": 1104,
-  "bbox_top": 1076,
-  "bbox_bottom": 2408,
+  "bbox_left": 777,
+  "bbox_right": 2132,
+  "bbox_top": 619,
+  "bbox_bottom": 2366,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 3500,
-  "height": 4000,
+  "width": 3700,
+  "height": 4750,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e234f26c-0fac-4637-9221-7c7576d910a3","path":"sprites/spr_rivermountainforeground/spr_rivermountainforeground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e234f26c-0fac-4637-9221-7c7576d910a3","path":"sprites/spr_rivermountainforeground/spr_rivermountainforeground.yy",},"LayerId":{"name":"a492b577-c891-417b-8dcc-70a7968c81a2","path":"sprites/spr_rivermountainforeground/spr_rivermountainforeground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rivermountainforeground","path":"sprites/spr_rivermountainforeground/spr_rivermountainforeground.yy",},"resourceVersion":"1.0","name":"e234f26c-0fac-4637-9221-7c7576d910a3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"497e2b56-7fcf-43d2-aa07-11195c6cdb2a","path":"sprites/spr_rivermountainforeground/spr_rivermountainforeground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"497e2b56-7fcf-43d2-aa07-11195c6cdb2a","path":"sprites/spr_rivermountainforeground/spr_rivermountainforeground.yy",},"LayerId":{"name":"7c8b177d-059b-4d02-8f65-b1511ade330b","path":"sprites/spr_rivermountainforeground/spr_rivermountainforeground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_rivermountainforeground","path":"sprites/spr_rivermountainforeground/spr_rivermountainforeground.yy",},"resourceVersion":"1.0","name":"497e2b56-7fcf-43d2-aa07-11195c6cdb2a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_rivermountainforeground","path":"sprites/spr_rivermountainforeground/spr_rivermountainforeground.yy",},
@@ -37,12 +37,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"18e3982a-2d33-4574-a84f-df34c586bb0f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e234f26c-0fac-4637-9221-7c7576d910a3","path":"sprites/spr_rivermountainforeground/spr_rivermountainforeground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+            {"id":"b28fa4d7-56d7-4d37-a6e4-e86d2a44f348","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"497e2b56-7fcf-43d2-aa07-11195c6cdb2a","path":"sprites/spr_rivermountainforeground/spr_rivermountainforeground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a492b577-c891-417b-8dcc-70a7968c81a2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7c8b177d-059b-4d02-8f65-b1511ade330b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
