@@ -58,6 +58,7 @@
     {"id":{"name":"spr_gateleft","path":"sprites/spr_gateleft/spr_gateleft.yy",},"order":0,},
     {"id":{"name":"obj_rock1","path":"objects/obj_rock1/obj_rock1.yy",},"order":4,},
     {"id":{"name":"obj_fallingleaves","path":"objects/obj_fallingleaves/obj_fallingleaves.yy",},"order":0,},
+    {"id":{"name":"obj_flyingbird","path":"objects/obj_flyingbird/obj_flyingbird.yy",},"order":0,},
     {"id":{"name":"obj_honger","path":"objects/obj_honger/obj_honger.yy",},"order":0,},
     {"id":{"name":"__scribble_font_add_from_project","path":"scripts/__scribble_font_add_from_project/__scribble_font_add_from_project.yy",},"order":6,},
     {"id":{"name":"fnt_one","path":"fonts/fnt_one/fnt_one.yy",},"order":0,},
@@ -320,6 +321,7 @@
     {"id":{"name":"obj_riverbushes","path":"objects/obj_riverbushes/obj_riverbushes.yy",},"order":3,},
     {"id":{"name":"spr_m5Scrolls","path":"sprites/spr_m5Scrolls/spr_m5Scrolls.yy",},"order":4,},
     {"id":{"name":"obj_F_Button","path":"objects/obj_F_Button/obj_F_Button.yy",},"order":1,},
+    {"id":{"name":"spr_flyingbird","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"order":5,},
     {"id":{"name":"obj_paper_kite_dl","path":"objects/obj_paper_kite_dl/obj_paper_kite_dl.yy",},"order":9,},
     {"id":{"name":"spr_lettersfrommum","path":"sprites/spr_lettersfrommum/spr_lettersfrommum.yy",},"order":1,},
     {"id":{"name":"obj_Sword01_dl","path":"objects/obj_Sword01_dl/obj_Sword01_dl.yy",},"order":10,},
@@ -520,6 +522,7 @@
     {"folderPath":"folders/Objects/Character/Sword.yy","order":3,"resourceVersion":"1.0","name":"Sword","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Lv1(Main)/Moving Platform.yy","order":5,"resourceVersion":"1.0","name":"Moving Platform","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Popups.yy","order":20,"resourceVersion":"1.0","name":"Popups","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/VFX.yy","order":19,"resourceVersion":"1.0","name":"VFX","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

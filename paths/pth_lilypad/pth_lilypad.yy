@@ -1,5 +1,4 @@
 {
-  "name": "pth_lilypad",
   "kind": 1,
   "closed": false,
   "precision": 4,
@@ -40,6 +39,7 @@
     "path": "folders/Paths.yy",
   },
   "resourceVersion": "1.0",
+  "name": "pth_lilypad",
   "tags": [],
   "resourceType": "GMPath",
 }
