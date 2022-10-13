@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "lotusleaves",
-    "path": "sprites/lotusleaves/lotusleaves.yy",
+    "name": "spr_trees_bamboos",
+    "path": "sprites/spr_trees_bamboos/spr_trees_bamboos.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,7 @@
     "path": "folders/Objects/Lv1(Main)/Environment/part 2.3 pond.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lotusleaves",
+  "name": "obj_trees_bamboos",
   "tags": [],
   "resourceType": "GMObject",
 }
