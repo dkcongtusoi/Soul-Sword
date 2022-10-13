@@ -329,6 +329,7 @@
     {"id":{"name":"obj_F_Button","path":"objects/obj_F_Button/obj_F_Button.yy",},"order":1,},
     {"id":{"name":"spr_flyingbird","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"order":5,},
     {"id":{"name":"obj_paper_kite_dl","path":"objects/obj_paper_kite_dl/obj_paper_kite_dl.yy",},"order":9,},
+    {"id":{"name":"spr_ceilingbg","path":"sprites/spr_ceilingbg/spr_ceilingbg.yy",},"order":7,},
     {"id":{"name":"spr_lettersfrommum","path":"sprites/spr_lettersfrommum/spr_lettersfrommum.yy",},"order":1,},
     {"id":{"name":"obj_Sword01_dl","path":"objects/obj_Sword01_dl/obj_Sword01_dl.yy",},"order":10,},
     {"id":{"name":"spr_three","path":"sprites/spr_three/spr_three.yy",},"order":5,},
