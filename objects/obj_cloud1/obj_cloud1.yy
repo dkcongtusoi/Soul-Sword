@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "TeamProjectThing",
-    "path": "TeamProjectThing.yyp",
+    "name": "Environment",
+    "path": "folders/Objects/Lv1(Main)/Environment.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cloud1",

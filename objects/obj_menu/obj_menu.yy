@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "start_menu",
-    "path": "sprites/start_menu/start_menu.yy",
+    "name": "spr_AnimatedMenu",
+    "path": "sprites/spr_AnimatedMenu/spr_AnimatedMenu.yy",
   },
   "solid": false,
   "visible": true,
