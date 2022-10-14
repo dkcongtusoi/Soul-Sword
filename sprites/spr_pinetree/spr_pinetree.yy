@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Environment",
-    "path": "folders/Sprites/Lv1(Main)/Environment.yy",
+    "name": "part 1.1",
+    "path": "folders/Sprites/Lv1(Main)/Environment/part 1.1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pinetree",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_shrine",
-    "path": "sprites/spr_shrine/spr_shrine.yy",
+    "name": "spr_floor_shrine",
+    "path": "sprites/spr_floor_shrine/spr_floor_shrine.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,7 @@
     "path": "folders/Objects/Lv1(Main)/Environment/shrine.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_shrine",
+  "name": "obj_floor_shrine",
   "tags": [],
   "resourceType": "GMObject",
 }
