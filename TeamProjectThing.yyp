@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_rock2","path":"objects/obj_rock2/obj_rock2.yy",},"order":5,},
+    {"id":{"name":"obj_lighting","path":"objects/obj_lighting/obj_lighting.yy",},"order":3,},
     {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},"order":1,},
     {"id":{"name":"spr_AnimatedMenu","path":"sprites/spr_AnimatedMenu/spr_AnimatedMenu.yy",},"order":6,},
     {"id":{"name":"scribble_font_bake_shadow","path":"scripts/scribble_font_bake_shadow/scribble_font_bake_shadow.yy",},"order":4,},
@@ -9,6 +10,7 @@
     {"id":{"name":"scribble_font_bake_outline_8dir_2px","path":"scripts/scribble_font_bake_outline_8dir_2px/scribble_font_bake_outline_8dir_2px.yy",},"order":2,},
     {"id":{"name":"obj_alley_dl","path":"objects/obj_alley_dl/obj_alley_dl.yy",},"order":0,},
     {"id":{"name":"obj_rocks_floor_pond","path":"objects/obj_rocks_floor_pond/obj_rocks_floor_pond.yy",},"order":7,},
+    {"id":{"name":"obj_lighting2","path":"objects/obj_lighting2/obj_lighting2.yy",},"order":4,},
     {"id":{"name":"spr_cloud5","path":"sprites/spr_cloud5/spr_cloud5.yy",},"order":4,},
     {"id":{"name":"obj_kunlun","path":"objects/obj_kunlun/obj_kunlun.yy",},"order":0,},
     {"id":{"name":"spr_spiderlily","path":"sprites/spr_spiderlily/spr_spiderlily.yy",},"order":4,},
@@ -350,6 +352,7 @@
     {"id":{"name":"scribble_anim_reset","path":"scripts/scribble_anim_reset/scribble_anim_reset.yy",},"order":5,},
     {"id":{"name":"__scribble_font_add_msdf_from_project","path":"scripts/__scribble_font_add_msdf_from_project/__scribble_font_add_msdf_from_project.yy",},"order":7,},
     {"id":{"name":"SND_BGM_LVL2_BARGAINING","path":"sounds/SND_BGM_LVL2_BARGAINING/SND_BGM_LVL2_BARGAINING.yy",},"order":2,},
+    {"id":{"name":"spr_lighting_2","path":"sprites/spr_lighting_2/spr_lighting_2.yy",},"order":8,},
     {"id":{"name":"snd_windonstairs","path":"sounds/snd_windonstairs/snd_windonstairs.yy",},"order":5,},
     {"id":{"name":"obj_bamboo2","path":"objects/obj_bamboo2/obj_bamboo2.yy",},"order":1,},
     {"id":{"name":"scribble_anim_cycle","path":"scripts/scribble_anim_cycle/scribble_anim_cycle.yy",},"order":1,},
@@ -541,7 +544,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.5.0.8",
+    "IDEVersion": "2022.6.1.26",
   },
   "resourceVersion": "1.5",
   "name": "TeamProjectThing",
