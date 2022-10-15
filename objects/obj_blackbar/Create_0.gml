@@ -11,3 +11,5 @@ position_topbar_y_end = position_topbar_y + global.bar_size;
 
 dialogue_done = false;
 dialogue_start = false;
+
+can_create = true;

@@ -6,16 +6,20 @@ if collision_circle(x, y - sprite_height/2, rad, obj_player, 1, 0){
 			image_yscale : 0.05
 		});
 	}
-	if !instance_exists(obj_Honger_shrine_dl) and !already_talked_to and interact{
+	if !instance_exists(obj_Honger_shrine_nokite_dl) and !instance_exists(obj_Honger_shrine_yeskite_dl) and !already_talked_to and interact{
 		global.isTalking = true;
 		if !instance_exists(obj_blackbar){
 			global.bar_size = 310;
 			with instance_create_depth(x, y, -10, obj_blackbar){
-				chosenDialogue = obj_Honger_shrine_dl;
+				if !global.kitecollect{ 
+					chosenDialogue = obj_Honger_shrine_nokite_dl;					
+				}else{
+					chosenDialogue = obj_Honger_shrine_yeskite_dl;
+				}
 				dialogue_start = true;
 			}
 		}
-		is_happy = true;
+		//is_happy = true;
 	}
 }else{
 	instance_destroy(obj_F_Button_3);

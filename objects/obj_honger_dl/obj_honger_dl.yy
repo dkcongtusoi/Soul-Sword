@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Dialogue",
-    "path": "folders/Objects/Lv1(Main)/Dialogue.yy",
+    "name": "Honger",
+    "path": "folders/Objects/Lv1(Main)/Dialogue/Honger.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_Honger_dl",

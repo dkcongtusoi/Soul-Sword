@@ -27,6 +27,7 @@ if !dialogue_done{
 	y = lerp(y, obj_player.y - obj_player.sprite_height/2, 0.05);
 	image_xscale = lerp(image_xscale, 0, 0.05);
 	if image_xscale <= 0.05{
+		global.kitecollect = true;
 		instance_destroy();
 	}
 }

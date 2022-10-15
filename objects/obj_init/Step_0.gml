@@ -23,3 +23,4 @@ if muted {
 }else{
 	audio_master_gain(1);
 }
+

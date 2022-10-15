@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Dialogue",
-    "path": "folders/Objects/Lv1(Main)/Dialogue.yy",
+    "name": "Option",
+    "path": "folders/Objects/Lv1(Main)/Dialogue/Honger/Option.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Honger_shrine_dl",
+  "name": "obj_kill_DL",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Honger",
-    "path": "folders/Objects/Lv1(Main)/Dialogue/Honger.yy",
+    "name": "Option",
+    "path": "folders/Objects/Lv1(Main)/Dialogue/Honger/Option.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Honger_Bamboo_dl",
+  "name": "obj_spare_DL",
   "tags": [],
   "resourceType": "GMObject",
 }

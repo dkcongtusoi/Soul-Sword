@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 68,
-  "bbox_top": 17,
-  "bbox_bottom": 66,
+  "bbox_right": 763,
+  "bbox_top": 0,
+  "bbox_bottom": 546,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 75,
-  "height": 75,
+  "width": 764,
+  "height": 547,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a546b8b9-a7ee-49c3-9977-e19a89516c2c","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a546b8b9-a7ee-49c3-9977-e19a89516c2c","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"LayerId":{"name":"610fb1a5-44c0-4f6e-8d65-18eb39c89a2f","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_flyingbird","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","name":"a546b8b9-a7ee-49c3-9977-e19a89516c2c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7f197ea5-763e-4fd0-88f8-a0c13ce621a9","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7f197ea5-763e-4fd0-88f8-a0c13ce621a9","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"LayerId":{"name":"610fb1a5-44c0-4f6e-8d65-18eb39c89a2f","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_flyingbird","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","name":"7f197ea5-763e-4fd0-88f8-a0c13ce621a9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1980b7c0-eb89-47fe-b650-63a70974737c","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1980b7c0-eb89-47fe-b650-63a70974737c","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"LayerId":{"name":"610fb1a5-44c0-4f6e-8d65-18eb39c89a2f","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_flyingbird","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","name":"1980b7c0-eb89-47fe-b650-63a70974737c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0c26b83a-ae5f-47af-ae52-37a05d8cec8d","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0c26b83a-ae5f-47af-ae52-37a05d8cec8d","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"LayerId":{"name":"c6c05912-bca9-4420-8120-8b14b11fb925","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_flyingbird","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","name":"0c26b83a-ae5f-47af-ae52-37a05d8cec8d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d29a15b2-999e-4b22-8b61-94176d33b69c","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d29a15b2-999e-4b22-8b61-94176d33b69c","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"LayerId":{"name":"c6c05912-bca9-4420-8120-8b14b11fb925","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_flyingbird","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","name":"d29a15b2-999e-4b22-8b61-94176d33b69c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0f082498-38a2-435a-837a-c07d1dbe6912","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0f082498-38a2-435a-837a-c07d1dbe6912","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"LayerId":{"name":"c6c05912-bca9-4420-8120-8b14b11fb925","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_flyingbird","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","name":"0f082498-38a2-435a-837a-c07d1dbe6912","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_flyingbird","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},
@@ -47,9 +47,9 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"31aa9c13-9c38-4c41-9992-7707a4f2cf24","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a546b8b9-a7ee-49c3-9977-e19a89516c2c","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"6d905227-7a30-44ad-9516-056ffff3c77b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f197ea5-763e-4fd0-88f8-a0c13ce621a9","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"08f0efec-128b-4ec5-8c9d-b5b779a14524","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1980b7c0-eb89-47fe-b650-63a70974737c","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a448fd76-7828-4d5f-b3a8-f2b2e4aa06ff","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c26b83a-ae5f-47af-ae52-37a05d8cec8d","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"25e30b01-3c93-4613-b0e9-26f22af4b919","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d29a15b2-999e-4b22-8b61-94176d33b69c","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c03bc6c8-0c09-45bf-ad8b-db7a3393a1bf","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f082498-38a2-435a-837a-c07d1dbe6912","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -62,8 +62,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 37,
-    "yorigin": 37,
+    "xorigin": 382,
+    "yorigin": 273,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_flyingbird","path":"sprites/spr_flyingbird/spr_flyingbird.yy",},
@@ -73,7 +73,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"610fb1a5-44c0-4f6e-8d65-18eb39c89a2f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c6c05912-bca9-4420-8120-8b14b11fb925","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

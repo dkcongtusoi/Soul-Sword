@@ -8,7 +8,7 @@ if dialogue_done{
 }
 
 if dialogue_start and (abs(position_botbar_y - position_botbar_y_end) <= 5){
-	if chosenDialogue != noone and !instance_exists(chosenDialogue){
+	if chosenDialogue != noone and !instance_exists(chosenDialogue) and can_create{
 		instance_create_depth(x, y, -1000, chosenDialogue)
 	}
 }

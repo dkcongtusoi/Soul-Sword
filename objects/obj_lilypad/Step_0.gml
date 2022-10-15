@@ -31,5 +31,4 @@ if reached{
 	instance_destroy(inst_39BD239E);
 	instance_destroy(inst_48E16B4F);
 	instance_destroy(inst_23C955E);
-	show_debug_message("destroy");
 }

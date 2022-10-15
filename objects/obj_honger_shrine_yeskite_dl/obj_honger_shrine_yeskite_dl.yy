@@ -30,7 +30,7 @@
     "path": "folders/Objects/Lv1(Main)/Dialogue/Honger.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Honger_Bamboo_dl",
+  "name": "obj_Honger_shrine_yeskite_dl",
   "tags": [],
   "resourceType": "GMObject",
 }

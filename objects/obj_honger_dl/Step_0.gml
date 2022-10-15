@@ -28,10 +28,3 @@
 		}
 	//}	
 //}
-
-if mouse_wheel_up(){
-	offset += 5;
-}
-if mouse_wheel_down(){
-	offset -= 5;
-}
