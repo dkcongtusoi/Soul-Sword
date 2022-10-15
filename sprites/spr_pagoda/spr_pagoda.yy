@@ -2,20 +2,20 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 4,
+  "origin": 3,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 900,
+  "bbox_right": 1285,
   "bbox_top": 0,
-  "bbox_bottom": 643,
+  "bbox_bottom": 890,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 907,
-  "height": 644,
+  "width": 1286,
+  "height": 891,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2b4dd229-d322-46ba-a72b-263b835983c7","path":"sprites/spr_pagoda/spr_pagoda.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2b4dd229-d322-46ba-a72b-263b835983c7","path":"sprites/spr_pagoda/spr_pagoda.yy",},"LayerId":{"name":"786a4295-a856-47cb-865a-d281b672518c","path":"sprites/spr_pagoda/spr_pagoda.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pagoda","path":"sprites/spr_pagoda/spr_pagoda.yy",},"resourceVersion":"1.0","name":"2b4dd229-d322-46ba-a72b-263b835983c7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"da7988ee-6e57-4523-b348-d5e9f9680b44","path":"sprites/spr_pagoda/spr_pagoda.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"da7988ee-6e57-4523-b348-d5e9f9680b44","path":"sprites/spr_pagoda/spr_pagoda.yy",},"LayerId":{"name":"69940e25-7515-4e34-9032-3e6125b71856","path":"sprites/spr_pagoda/spr_pagoda.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pagoda","path":"sprites/spr_pagoda/spr_pagoda.yy",},"resourceVersion":"1.0","name":"da7988ee-6e57-4523-b348-d5e9f9680b44","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_pagoda","path":"sprites/spr_pagoda/spr_pagoda.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6497ec32-7dbc-4768-ac34-9f9235e04890","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2b4dd229-d322-46ba-a72b-263b835983c7","path":"sprites/spr_pagoda/spr_pagoda.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cb5df9c4-6b08-4470-8e0a-beec6c679a4c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"da7988ee-6e57-4523-b348-d5e9f9680b44","path":"sprites/spr_pagoda/spr_pagoda.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 453,
-    "yorigin": 322,
+    "xorigin": 0,
+    "yorigin": 445,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pagoda","path":"sprites/spr_pagoda/spr_pagoda.yy",},
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"786a4295-a856-47cb-865a-d281b672518c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"69940e25-7515-4e34-9032-3e6125b71856","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Lv1 Items",
-    "path": "folders/Sprites/Placeholder/Lv1 Items.yy",
+    "path": "folders/Sprites/Lv1(Main)/Lv1 Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pagoda",
