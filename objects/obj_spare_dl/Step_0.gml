@@ -4,11 +4,7 @@
 			dialog_next();
 			
 			if dialog_end(){
-				global.isTalking = false;
-				global.startDialogue = false;
-				//obj_honger.already_talked_to = true;
-				obj_blackbar.dialogue_done = true;
-				obj_blackbar.dialogue_start = false;
+				obj_honger_shrine.start_run = true;
 				instance_destroy();
 				
 			}

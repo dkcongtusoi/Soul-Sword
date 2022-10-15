@@ -15,17 +15,18 @@ if collision_circle(x, y - sprite_height/2, rad, obj_player, 1, 0){
 					chosenDialogue = obj_Honger_shrine_nokite_dl;					
 				}else{
 					chosenDialogue = obj_Honger_shrine_yeskite_dl;
+					is_happy = true;
 				}
 				dialogue_start = true;
 			}
 		}
-		//is_happy = true;
+		
 	}
 }else{
 	instance_destroy(obj_F_Button_3);
 }
 
-if is_happy{
+if is_happy and !start_run{
 	sprite_index = spr_Honger_Happy;
 	if x < obj_player.x{
 		image_xscale = -0.35;
@@ -33,6 +34,10 @@ if is_happy{
 	if x > obj_player.x{
 		image_xscale = 0.35;
 	}
-}else{
-	sprite_index = spr_Honger_Idle;
+}
+
+if start_run{
+	x -= spd;
+	sprite_index = spr_Honger_Run;
+	image_xscale = -0.35;	
 }

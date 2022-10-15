@@ -273,6 +273,7 @@
     {"id":{"name":"scribble_super_glyph_copy","path":"scripts/scribble_super_glyph_copy/scribble_super_glyph_copy.yy",},"order":2,},
     {"id":{"name":"scribble_anim_jitter","path":"scripts/scribble_anim_jitter/scribble_anim_jitter.yy",},"order":2,},
     {"id":{"name":"spr_floor1","path":"sprites/spr_floor1/spr_floor1.yy",},"order":2,},
+    {"id":{"name":"obj_HongerShrine_Killer","path":"objects/obj_HongerShrine_Killer/obj_HongerShrine_Killer.yy",},"order":4,},
     {"id":{"name":"scribble_anim_shake","path":"scripts/scribble_anim_shake/scribble_anim_shake.yy",},"order":6,},
     {"id":{"name":"__scribble_font_add_all_from_project","path":"scripts/__scribble_font_add_all_from_project/__scribble_font_add_all_from_project.yy",},"order":5,},
     {"id":{"name":"obj_nextlvl","path":"objects/obj_nextlvl/obj_nextlvl.yy",},"order":0,},

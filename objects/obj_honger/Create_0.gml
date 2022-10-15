@@ -5,3 +5,4 @@ rad = 150;
 is_happy = false;
 
 cor = c_yellow;
+
