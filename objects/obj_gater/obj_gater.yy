@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Environment",
-    "path": "folders/Objects/Lv1(Main)/Environment.yy",
+    "name": "part 1.1",
+    "path": "folders/Objects/Lv1(Main)/Environment/part 1.1.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_gateR",
