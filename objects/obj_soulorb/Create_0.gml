@@ -4,7 +4,7 @@ dialogue_done = false;
 global.canInteract = true;
 
 camOffset = false;
-
+can_count = true;
 
 s_emit = audio_emitter_create();
 audio_max_distance_to_be_heard = 300;

@@ -26,7 +26,9 @@ if !dialogue_done{
 	x = lerp(x, obj_player.x, 0.05);
 	y = lerp(y, obj_player.y - obj_player.sprite_height/2, 0.05);
 	image_xscale = lerp(image_xscale, 0, 0.05);
-	if image_xscale <= 0.05{
+	if image_xscale <= 0.05 and can_count{
+		can_count = false;
+		global.memories += 1;
 		instance_destroy();
 	}
 }

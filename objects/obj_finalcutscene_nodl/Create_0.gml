@@ -5,3 +5,5 @@ can_interact = false;
 ending = false;
 
 value = 0;
+
+created = false;

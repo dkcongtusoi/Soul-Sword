@@ -13,7 +13,8 @@
 //	}
 //}
 
-if !instance_exists(obj_blackbar) and can_interact{
+if !instance_exists(obj_blackbar) and can_interact and !created{
+	created = true;
 	global.bar_size = 310;
 	with instance_create_depth(x, y, depth, obj_blackbar){
 		if global.ending == 1{
@@ -33,7 +34,7 @@ if ending{
 	value = lerp(value, 1, 0.015);
 	if value >= 0.98{
 		image_alpha = lerp(image_alpha, 0, 0.02);
-		if image_alpha <= 0.02{
+		if image_alpha <= 0.005{
 			game_end();
 		}
 	}

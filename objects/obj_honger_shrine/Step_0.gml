@@ -1,6 +1,6 @@
 var interact = keyboard_check_pressed(ord("F"));
-if collision_circle(x, y - sprite_height/2, rad, obj_player, 1, 0){
-	if !instance_exists(obj_F_Button_3) && !already_talked_to && !global.isTalking{
+if collision_circle(x, y - sprite_height/2, rad, obj_player, 1, 0) && visible{
+	if !instance_exists(obj_F_Button_3) && !already_talked_to && !global.isTalking && visible{
 		instance_create_depth(x, bbox_top - 25, depth, obj_F_Button_3,{	
 			image_xscale : 0.05,
 			image_yscale : 0.05
