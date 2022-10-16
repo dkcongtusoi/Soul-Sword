@@ -5,3 +5,5 @@ alpha = 1;
 total_black = false;
 
 has_created = false;
+
+sword_created = false;

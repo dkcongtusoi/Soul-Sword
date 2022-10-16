@@ -25,7 +25,14 @@ if total_black{
 
 if alpha <= 0.05{
 	if !instance_exists(obj_Sword02_dl){
-		instance_create_depth(x, y, depth, obj_Sword02_dl);
+		global.isTalking = true;
+		if !instance_exists(obj_blackbar){
+			global.bar_size = 310;
+			with instance_create_depth(x, y, -10, obj_blackbar){
+				chosenDialogue = obj_Sword02_dl;
+				dialogue_start = true;
+			}
+		}
 	}
 	instance_destroy();
 }

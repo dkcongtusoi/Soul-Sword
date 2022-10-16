@@ -1,4 +1,4 @@
-if keyboard_check_pressed(vk_space){
+if keyboard_check_pressed(ord("F")) && can_interact{
 	if image_index < image_number -1{
 		image_index ++;
 	}
