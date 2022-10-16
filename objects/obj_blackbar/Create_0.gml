@@ -13,3 +13,5 @@ dialogue_done = false;
 dialogue_start = false;
 
 can_create = true;
+
+alpha = 1;

@@ -6,13 +6,6 @@ if instance_exists(obj_final_dl){
 		image_index = 2;
 	}
 }	
-
-//if keyboard_check_pressed(vk_space){
-//	if image_index < 2{
-//		image_index ++;
-//	}
-//}
-
 if image_index == 2 and !created{
 	if keyboard_check_pressed(vk_right){
 		instance_create_depth(x, y, depth, obj_ending_1);
@@ -35,24 +28,3 @@ if ending{
 		image_alpha = lerp(image_alpha, 0, 0.02);
 	}
 }
-
-#region QOL
-
-if keyboard_check_pressed(ord("R")){
-	if keyboard_check(vk_shift){
-		game_restart();
-	}else{
-		room_restart();
-	}
-}
-
-if keyboard_check_pressed(ord("F")){	
-	if window_get_fullscreen(){
-		window_set_fullscreen(false);
-	}else{
-		window_set_fullscreen(true);
-	}
-}
-
-
-#endregion
