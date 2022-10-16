@@ -13,7 +13,7 @@ if can_display_text{
 //draw_text_ext(drawX + _mm, drawY + _mm, text, -1, max_width);
 	draw_set_font(fnt_two);
 	
-	var wantSize = 12;
+	var wantSize = 20;
 	var currSize = string_height(_text);
 	var scale = wantSize / currSize;
 	

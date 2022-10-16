@@ -22,6 +22,7 @@
 				global.startDialogue = false;
 				obj_blackbar.dialogue_done = true;
 				obj_blackbar.dialogue_start = false;
+				obj_dummyorb.visible = true;
 				obj_honger_shrine.visible = true;
 				instance_destroy();
 				

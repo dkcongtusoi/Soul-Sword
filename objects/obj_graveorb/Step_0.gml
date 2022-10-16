@@ -2,7 +2,9 @@ if !dialogue_done{
 	if place_meeting(x, y, obj_player){
 		image_xscale = 1.2;
 		image_yscale = 1.2;	
-		if obj_player.interact && !already_interact && global.canInteract{	
+		if obj_player.interact && !already_interact && global.canInteract{
+			obj_player.canMove = false;
+			obj_player.sprite_index = spr_QY_StartEnd;
 			already_interact = true;
 			global.canInteract = false;
 			camOffset = true;

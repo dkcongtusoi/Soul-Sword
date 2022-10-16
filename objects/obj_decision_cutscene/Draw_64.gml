@@ -3,9 +3,9 @@ draw_set_align(fa_center, fa_middle);
 draw_set_font(fnt_one);
 
 if can_option{
-	draw_text_transformed_color(display_get_gui_width()/2 - 500, display_get_gui_height() - 154, "[<] Refuse to kill her", scale1, scale1, 0, color1, color1, color1, color1, alpha1);
+	draw_text_transformed_color(display_get_gui_width()/2 - 550, display_get_gui_height() - 154, "[LEFT] Refuse to kill her", scale1, scale1, 0, color1, color1, color1, color1, alpha1);
 
-	draw_text_transformed_color(display_get_gui_width()/2 + 500, display_get_gui_height() - 154, "Accept her command [>]", scale2, scale2, 0, color2, color2, color2, color2, alpha2);
+	draw_text_transformed_color(display_get_gui_width()/2 + 550, display_get_gui_height() - 154, "Accept her command [RIGHT]", scale2, scale2, 0, color2, color2, color2, color2, alpha2);
 }
 
 if can_confirm{

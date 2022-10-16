@@ -423,6 +423,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_lily","path":"objects/obj_lily/obj_lily.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4281925491,"rotation":0.0,"scaleX":2.6999207,"scaleY":1.75,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7252.205,"y":2952.0,"resourceVersion":"1.0","name":"inst_2D61AEA3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_village","path":"objects/obj_village/obj_village.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4283432809,"rotation":0.0,"scaleX":1.0,"scaleY":6.9492188,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":11242.0,"y":5077.25,"resourceVersion":"1.0","name":"inst_5401561C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_topshrine","path":"objects/obj_topshrine/obj_topshrine.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4284874577,"rotation":0.0,"scaleX":1.0,"scaleY":10.0625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":14753.0,"y":4092.0,"resourceVersion":"1.0","name":"inst_143DC013","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_dummyorb","path":"objects/obj_dummyorb/obj_dummyorb.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":18663.0,"y":1544.0,"resourceVersion":"1.0","name":"inst_74995D37","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_mountain1","path":"objects/obj_mountain1/obj_mountain1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.55095917,"scaleY":0.55095917,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":5499.0,"resourceVersion":"1.0","name":"inst_7D3CF139","tags":[],"resourceType":"GMRInstance",},
@@ -1059,6 +1060,7 @@
     {"name":"inst_2D61AEA3","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_5401561C","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_143DC013","path":"rooms/Level1/Level1.yy",},
+    {"name":"inst_74995D37","path":"rooms/Level1/Level1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
