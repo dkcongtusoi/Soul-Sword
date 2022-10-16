@@ -287,6 +287,7 @@
     {"id":{"name":"spr_ropes","path":"sprites/spr_ropes/spr_ropes.yy",},"order":8,},
     {"id":{"name":"dialog_init","path":"scripts/dialog_init/dialog_init.yy",},"order":2,},
     {"id":{"name":"__scribble_class_page","path":"scripts/__scribble_class_page/__scribble_class_page.yy",},"order":5,},
+    {"id":{"name":"snd_swordslash","path":"sounds/snd_swordslash/snd_swordslash.yy",},"order":7,},
     {"id":{"name":"obj_scroll_building","path":"objects/obj_scroll_building/obj_scroll_building.yy",},"order":9,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":5,},
     {"id":{"name":"scribble_glyph_set","path":"scripts/scribble_glyph_set/scribble_glyph_set.yy",},"order":16,},
