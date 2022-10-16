@@ -11,7 +11,7 @@ dialog_add(noone, "[#333FC2]Goodbye Qiu Ye.[/c]");
 dialog_add(noone, "[#E24A33]No! No, please.[/c]");
 
 dialog_add(noone, "[#333FC2]Repent and maybe we shall see each other again.[/c]");
-dialog_add(noone, "[#333FC2]Take Hong’er’s kite back to his mother for me.[/c]");
+dialog_add(noone, "[#333FC2]Take Hong'er's kite back to his mother for me.[/c]");
 
 
 dialog_reset();
