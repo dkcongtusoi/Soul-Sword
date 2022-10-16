@@ -7,7 +7,7 @@
 	
 	//var text = string_copy(message, 0, character_index);
 	draw_set_font(fnt_one);
-	draw_text_scribble_ext(display_get_gui_width()/2, display_get_gui_height() - 100, message, 1200);
+	draw_text_scribble_ext(display_get_gui_width()/2, display_get_gui_height() - 100, message, 1500);
 	
 	//if is_waiting_for_keypress{
 		draw_set_align(fa_left, fa_middle);

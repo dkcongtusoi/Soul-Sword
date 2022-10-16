@@ -1,5 +1,9 @@
-a = lerp(a, 0, 0.015);
-if a <= 0.2{
+if started{
+	a = lerp(a, 0, 0.025);
+}
+
+
+if a <= 0.05{
 	if room != Level3{
 		global.canMove = true;
 	}else{
