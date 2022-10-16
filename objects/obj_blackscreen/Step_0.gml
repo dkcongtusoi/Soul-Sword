@@ -14,6 +14,9 @@ if total_black{
 		has_created = true;
 		instance_create_depth(x, y, depth - 10, obj_swordslash);
 		instance_destroy(obj_honger_shrine);
+		if !instance_exists(obj_blood){
+			instance_create_depth(x, y, depth, obj_blood);
+		}
 	}
 	if !instance_exists(obj_swordslash) and has_created{
 		alpha = lerp(alpha, 0, 0.015);
@@ -21,6 +24,9 @@ if total_black{
 }
 
 if alpha <= 0.05{
+	if !instance_exists(obj_Sword02_dl){
+		instance_create_depth(x, y, depth, obj_Sword02_dl);
+	}
 	instance_destroy();
 }
 

@@ -30,7 +30,7 @@
     "path": "folders/Objects/Lv1(Main)/Dialogue/Sword.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Sword03_dl",
+  "name": "obj_Sword02_dl",
   "tags": [],
   "resourceType": "GMObject",
 }

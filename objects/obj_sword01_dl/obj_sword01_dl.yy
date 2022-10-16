@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Dialogue",
-    "path": "folders/Objects/Lv1(Main)/Dialogue.yy",
+    "name": "Sword",
+    "path": "folders/Objects/Lv1(Main)/Dialogue/Sword.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_Sword01_dl",
