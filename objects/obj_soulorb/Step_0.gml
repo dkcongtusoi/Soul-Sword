@@ -38,3 +38,8 @@ if !instance_exists(obj_blackbar) && itemDialogue != noone && already_interact =
 if camOffset{
 		obj_camera.offsetX = lerp(obj_camera.offsetX, display_get_gui_width*0.3333333, obj_camera.camSp);
 }
+
+if (state == 0) {
+	audio_play_sound_on(s_emit, snd_soulfire, true, 1);
+	state = 1;
+}

@@ -1,3 +1,3 @@
-image_xscale = 1;
+sndimage_xscale = 1;
 
-path_start(pth_firefly2, 4, path_action_restart, 0);
+path_start(pth_firefly2, 4, path_action_reverse, 0);

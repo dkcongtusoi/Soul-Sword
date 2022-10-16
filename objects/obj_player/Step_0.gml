@@ -304,4 +304,5 @@ if room == Level1{
 dist = point_distance(x, y, obj_emitterriver.x, obj_emitterriver.y);
 dist = point_distance(x, y, obj_emittermountain.x, obj_emittermountain.y);
 dist = point_distance(x, y, obj_emitterwindyclouds.x, obj_emitterwindyclouds.y);
+dist = point_distance(x, y, obj_soulorb.x, obj_soulorb.y);
 }
