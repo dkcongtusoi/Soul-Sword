@@ -10,3 +10,5 @@ is_happy = false;
 start_run = false;
 
 spd = 3;
+
+killed = false;

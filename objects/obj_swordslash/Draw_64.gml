@@ -1,0 +1,1 @@
+draw_sprite(spr_swordslash, index, 0, 0);

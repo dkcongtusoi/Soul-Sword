@@ -41,3 +41,10 @@ if start_run{
 	sprite_index = spr_Honger_Run;
 	image_xscale = -0.35;	
 }
+
+if killed{	
+	if !instance_exists(obj_blackscreen) and !instance_exists(obj_blackbar){
+		instance_create_depth(x, y, depth, obj_blackscreen);
+		killed = false;
+		}					
+}
