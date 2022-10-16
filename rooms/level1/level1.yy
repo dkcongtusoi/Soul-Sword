@@ -404,7 +404,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_kunlun","path":"objects/obj_kunlun/obj_kunlun.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4281859840,"rotation":0.0,"scaleX":1.0,"scaleY":5.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":5792.0,"resourceVersion":"1.0","name":"inst_40630144","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Sword03_trigger","path":"objects/obj_Sword03_trigger/obj_Sword03_trigger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4290117887,"rotation":0.0,"scaleX":1.0,"scaleY":6.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":18336.0,"y":1408.0,"resourceVersion":"1.0","name":"inst_46A52A41","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_HongerShrine_Killer","path":"objects/obj_HongerShrine_Killer/obj_HongerShrine_Killer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4283190527,"rotation":0.0,"scaleX":1.0,"scaleY":7.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":18080.0,"y":1344.0,"resourceVersion":"1.0","name":"inst_5897672B","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":19680.0,"y":864.0,"resourceVersion":"1.0","name":"inst_696FA9D1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Sword04_trigger","path":"objects/obj_Sword04_trigger/obj_Sword04_trigger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294941772,"rotation":0.0,"scaleX":1.0,"scaleY":7.0000005,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":19168.0,"y":1408.0,"resourceVersion":"1.0","name":"inst_53F4A37","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -1012,7 +1011,6 @@
     {"name":"inst_58B500B7","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_62EBE6EF","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_4ED02AAE","path":"rooms/Level1/Level1.yy",},
-    {"name":"inst_696FA9D1","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_41D71F0F","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_4B2E1BCD","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_574534E2","path":"rooms/Level1/Level1.yy",},
