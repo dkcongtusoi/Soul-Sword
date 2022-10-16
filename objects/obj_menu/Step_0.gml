@@ -17,7 +17,10 @@ if menu == 0{
 	obj_exitbutton.hover = false;
 	obj_controlbutton.hover = true;
 	if accept{
-		
+		if !instance_exists(obj_ctrlbox){
+			instance_create_depth(room_width/2, room_height/2 - 200, depth - 10, obj_ctrlbox);
+			show_debug_message("created");
+		}
 	}
 }else if menu == 2{
 	obj_startbutton.hover = true;
