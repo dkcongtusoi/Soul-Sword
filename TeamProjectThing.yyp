@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_rock2","path":"objects/obj_rock2/obj_rock2.yy",},"order":5,},
+    {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":7,},
     {"id":{"name":"obj_lighting","path":"objects/obj_lighting/obj_lighting.yy",},"order":3,},
     {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},"order":1,},
     {"id":{"name":"spr_AnimatedMenu","path":"sprites/spr_AnimatedMenu/spr_AnimatedMenu.yy",},"order":6,},
@@ -141,6 +142,7 @@
     {"id":{"name":"obj_emitterwindyclouds","path":"objects/obj_emitterwindyclouds/obj_emitterwindyclouds.yy",},"order":2,},
     {"id":{"name":"obj_kite","path":"objects/obj_kite/obj_kite.yy",},"order":1,},
     {"id":{"name":"obj_dustparticle","path":"objects/obj_dustparticle/obj_dustparticle.yy",},"order":9,},
+    {"id":{"name":"spr_cutscene_final","path":"sprites/spr_cutscene_final/spr_cutscene_final.yy",},"order":1,},
     {"id":{"name":"spr_floor_1","path":"sprites/spr_floor_1/spr_floor_1.yy",},"order":4,},
     {"id":{"name":"lotusleaves","path":"sprites/lotusleaves/lotusleaves.yy",},"order":0,},
     {"id":{"name":"spr_floor_shrine","path":"sprites/spr_floor_shrine/spr_floor_shrine.yy",},"order":1,},
@@ -526,7 +528,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.6.1.26",
+    "IDEVersion": "2022.5.0.8",
   },
   "resourceVersion": "1.5",
   "name": "TeamProjectThing",
