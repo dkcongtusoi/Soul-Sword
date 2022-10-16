@@ -1,8 +1,9 @@
 if place_meeting(x, y, obj_player){
-	if !instance_exists(obj_textbox){
+	if !instance_exists(obj_textbox) and !global.displaying{
 		instance_create_depth(x, y, -1, obj_textbox);
+		global.displaying = true;
 		obj_textbox._text = "I've arrived at Kunlun Mountain";
-		obj_textbox.duration = room_speed*4;
+		obj_textbox.duration = room_speed*3;
 	}
-	instance_destroy();
+	//instance_destroy();
 }
