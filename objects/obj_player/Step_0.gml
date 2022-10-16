@@ -50,7 +50,7 @@ if place_meeting(x, y + 1, obj_collision) || place_meeting(x, y + 1, obj_lilypad
 	if jump_hold and !key_left and !key_right{
 		isHoldingJump = true;
 		timer++;
-		if timer >= room_speed*1{
+		if timer >= room_speed*0.5{
 			jumpSp = jumpSpMax;
 		}
 		//if jumpSp < jumpSpMax{

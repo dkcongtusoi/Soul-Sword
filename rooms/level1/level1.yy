@@ -385,7 +385,6 @@
         {"properties":[
             {"propertyId":{"name":"itemDialogue","path":"objects/obj_soulorb/obj_soulorb.yy",},"objectId":{"name":"obj_soulorb","path":"objects/obj_soulorb/obj_soulorb.yy",},"value":"obj_lantern_dl","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_soulorb","path":"objects/obj_soulorb/obj_soulorb.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7594.0,"y":4518.0,"resourceVersion":"1.0","name":"inst_50886AFE","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-64.0,"y":5472.0,"resourceVersion":"1.0","name":"inst_6249C1C2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":5952.0,"resourceVersion":"1.0","name":"inst_6BB8B053","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Sword01_trigger","path":"objects/obj_Sword01_trigger/obj_Sword01_trigger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":2717847543,"rotation":0.0,"scaleX":1.5,"scaleY":6.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1171.0,"y":5518.0,"resourceVersion":"1.0","name":"inst_412458A1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
@@ -853,7 +852,6 @@
     {"name":"inst_1BC23181","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_14695801","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_50886AFE","path":"rooms/Level1/Level1.yy",},
-    {"name":"inst_6249C1C2","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_692A5C50","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_6BB8B053","path":"rooms/Level1/Level1.yy",},
     {"name":"inst_412458A1","path":"rooms/Level1/Level1.yy",},
